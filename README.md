@@ -1,5 +1,5 @@
 # Feeding-the-herds
-R code and data associated with Lightfoot et al 2020
+R code and data file associated with Lightfoot et al 2020
 
 This repository contains files associated with:
 Lightfoot E, Jones PJ, O’Connell TC, Joglekar P, Shinde V, Singh RN and Petrie CA 2020: Feeding the herds: An isotopic comparison of animal management practices at Indus sites in Haryana. Archaeological Research in Asia
