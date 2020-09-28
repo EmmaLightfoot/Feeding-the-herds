@@ -1,0 +1,367 @@
+---
+title: "R Code"
+author: "Emma Lightfoot"
+date: "12/12/2019"
+output: html_document
+---
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+Load required packages:
+```{r}
+library(readr)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(rockchalk)
+library(car)
+```
+
+Load data file:
+Save/export SI file as a .csv called "Data" to the same folder as this file
+```{r}
+Data <- read_csv("Data.csv")
+```
+
+Due to sample sizes (and difficulty in species identification), combine species and make a new column 'simple':
+```{r}
+Data$Species<-as.factor(Data$Species)
+
+simple<-c()
+
+for (i in 1:length(Data$Species))
+{
+  x <- NA
+  if (Data$Species[i] == "Bos indicus" || Data$Species[i] == "Bubalus bubalis") 
+  {
+    simple<-c(simple, "Cow/Buffalo")  
+  }
+  if (Data$Species[i] == "Capra hircus" || Data$Species[i] == "Capra/Ovis" || Data$Species[i] == "Ovis aries") 
+  {
+    simple<-c(simple, "Sheep/Goat")  
+  }
+  
+  if (Data$Species[i] == "Sus domesticus" || Data$Species[i] == "Sus scrofa") 
+  {
+    simple<-c(simple, "Pig")  
+  }
+  if (Data$Species[i] == "Boselaphus tragocamelus" || Data$Species[i] == "Antilope cervicapra" || Data$Species[i] == "Bos gaurus" || Data$Species[i] == "Tetracerus quadricornus" || Data$Species[i] == "Cervus unicolor" || Data$Species[i] == "Antelope" || Data$Species[i] == "Axis axis" ) 
+  {
+    simple<-c(simple, "Wild")  
+  }
+}
+
+Data$simple<-simple
+
+Data
+```
+
+Create a column that keeps original species for domestic species but groups together the wild animals:
+```{r}
+Data$simpleWild=Data$Species
+
+Data$simpleWild<-combineLevels(Data$simpleWild, levs= c("Antelope", "Antilope cervicapra", "Axis axis", "Bos gaurus", "Boselaphus tragocamelus", "Cervus unicolor", "Tetracerus quadricornus"), newLabel="Wild")
+levels(Data$simpleWild)
+```
+
+**_FIGURES_**
+
+**FIGURE 2 (Boxplot showing bulk and median sequential data from the Mature Harappan period for the domestic animal species plus all wild for comparison, data from this study only)**
+
+Select data required (create a series of data frames that are subsets of 'Data' needed for plot)
+Domestic species only, Middle Harappan only, exclude Ganeshwar, bulk samples only:
+```{r}
+Domestic_urban_bulk <- subset(Data, Cultural_Period == "MHar" &   Site !="GWR" & Bulk_Intra != "Intra" & simple !="Wild")
+```
+
+Mature Harappan only, only sites analysed in this study, serial samples only, exclude Ganeshwar:
+```{r}
+Domestic_urban_serial <- subset(Data, Cultural_Period == "MHar" & Site !="GWR" & Bulk_Intra != "Bulk" & simple !="Wild")
+```
+
+All wild samples (regardless of site and period due to sample sizes):
+```{r}
+Wild <-subset(Data, simple =="Wild")
+```
+
+Combine dataframes of MHar domestic serial samples and all wild sampes:
+```{r}
+Serial_Fig2<-rbind(Domestic_urban_serial, Wild)
+```
+
+Work out median carbon isotope values of serial sampled teeth:
+```{r}
+Tablea<-data.frame(
+  aggregate(simple~Individual,data=Serial_Fig2,FUN=function(x){x[1]}),
+  aggregate(simpleWild~Individual,data=Serial_Fig2,FUN=function(x){x[1]}),
+  aggregate(d13C~Individual,data=Serial_Fig2,FUN=median))
+Tablea <- Tablea[,c(1,2,4,6)]
+colnames(Tablea) <- c("Sample", "simple", "simpleWild", "d13C")
+```
+
+Create a new dataframe that includes the bulk data and the median values created above:
+```{r}
+Tableb <- Domestic_urban_bulk %>% select(Sample, simple, simpleWild, d13C)
+Data_bulk_median_combined<-rbind(Tablea, Tableb)
+```
+
+Plot Figure 2:
+```{r}
+#cairo_ps("Lightfoot et al Figure 2.eps", family="DejaVu Sans", height=4, width=6)
+ggplot(Data_bulk_median_combined, aes(x=simpleWild, y = d13C)) + 
+  geom_boxplot(aes(fill=simpleWild)) + 
+  scale_x_discrete(name="Species") +
+  geom_point(shape=21, colour="black", fill="white")+
+  scale_y_continuous(name=expression("Enamel carbonate "*delta^13*C*" "("\u2030")), limits=c(-15, 5)) + 
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_manual(values=c("black", "black", "grey", "grey", "grey", "white","white", "white")) +
+  theme(legend.position="none")
+#dev.off()
+```
+
+**FIGURE 3 (Scatter plot showing sequential results from wild animal species)**
+
+Select data required - wild species only, serial data only:
+```{r}
+Wild_serial <- subset(Data, simple=="Wild")
+```
+
+Plot Figure 3:
+```{r}
+#cairo_ps("Lightfoot et al Figure 3.eps", family="DejaVu Sans", height=4, width=6)
+ggplot(Wild_serial, aes(x=DistERJ, y=d13C, group=Specimen)) + 
+  geom_point(aes(shape=Species, colour=Species, fill=Species)) +
+  geom_line(aes(colour=Species)) +
+  theme_classic() +
+  scale_shape_manual(values=c(21, 22, 23, 24, 25, 21, 23)) +
+    scale_color_manual(values=c("black", "black","black", "black", "black", "black", "black")) +
+  scale_fill_manual(values=c("black", "black", "white", "black","black", "white", "black")) +
+  scale_x_continuous(name="Distance ERJ (mm)", limits=c(0, 35)) +
+  scale_y_continuous(name=expression("Enamel carbonate "*delta^13*C*" "("\u2030")), limits=c(-10, 8))
+#dev.off()
+```
+
+
+**FIGURE 4 (Scatter plot showing sequential results from domestic animal species, separated by phase, data from this study only)**
+
+Select data required - Domestic species only, exclude Ganeshwar, serial samples only (all periods):
+```{r}
+Domestic_serial <- subset(Data, simple != "Wild" & Site !="GWR" & Bulk_Intra != "Bulk")
+```
+
+Control order of groups:
+```{r}
+Domestic_serial$Cultural_Period = factor(Domestic_serial$Cultural_Period, levels=c('EHar','MHar', 'LHar', 'PGW', 'Early Historic'))
+```
+
+Plot Figure 4 
+```{r}
+#cairo_ps("Lightfoot et al Figure 4.eps", family="DejaVu Sans", height=6, width=10)
+ggplot(Domestic_serial, aes(x=DistERJ, y=d13C, group=Specimen)) + 
+  geom_point(aes(shape=Species, color=Species, fill=Species)) +
+  geom_line(aes(color=Species)) +
+  theme_classic() +
+  scale_shape_manual(values=c(16, 15, 17, 23, 25, 8)) +
+  scale_color_manual(values=c("black", "black", "grey", "grey", "grey")) +
+  scale_fill_manual(values=c("black", "black",  "grey", "grey", "grey")) +
+  scale_x_continuous(name="Distance ERJ (mm)", limits=c(0, 60)) +
+  scale_y_continuous(name=expression("Enamel carbonate "*delta^13*C*" "("\u2030")), limits=c(-10, 8)) +
+  theme(legend.position = c(0.85, 0.2))+
+  facet_wrap(~Cultural_Period)
+#dev.off()
+```
+
+**FIGURE 5 (Scatter plot showing sequential results from domestic animal species, MH only but separated by phase within that, data from this study only)**
+
+Select data required - Domestic species only, exclude Ganeshwar, serial samples only (all periods):
+```{r}
+Domestic_serial_MH <- subset(Domestic_serial, Cultural_Period=="MHar")
+```
+
+Control order of groups:
+```{r}
+Domestic_serial_MH$Cultural_Phase = factor(Domestic_serial_MH$Cultural_Phase, levels=c('MHar i', 'MHar ii', 'MHar iii'))
+```
+
+Plot Figure 5 
+```{r}
+cairo_ps("Lightfoot et al Figure 5.eps", family="DejaVu Sans", height=6, width =10)
+ggplot(Domestic_serial_MH, aes(x=DistERJ, y=d13C, group=Specimen)) + 
+  geom_point(aes(shape=Species, color=Species, fill=Species)) +
+  geom_line(aes(color=Species)) +
+  theme_classic() +
+  scale_shape_manual(values=c(16, 15, 17, 23, 25, 8)) +
+  scale_color_manual(values=c("black", "black", "grey", "grey", "grey")) +
+  scale_fill_manual(values=c("black", "black",  "grey", "grey", "grey")) +
+  scale_x_continuous(name="Distance ERJ (mm)", limits=c(0, 60)) +
+  scale_y_continuous(name=expression("Enamel carbonate "*delta^13*C*" "("\u2030")), limits=c(-10, 8)) +
+  facet_wrap(~Cultural_Phase, nrow=1)
+dev.off()
+```
+
+**FIGURE 6 (Scatter plot showing sequential results from domestic animal species, all periods, separated by site)**
+
+Select data required - Domestic species only, serial samples only (all periods):
+```{r}
+Domestic_serial_GWR <- subset(Data, simple !="Wild" &  Bulk_Intra != "Bulk")
+```
+
+Plot Figure 6:
+```{r}
+#cairo_ps("Lightfoot et al Figure 6.eps", family="DejaVu Sans", height=6, width=10)
+ggplot(Domestic_serial_GWR, aes(x=DistERJ, y=d13C, group=Specimen)) + 
+  geom_point(aes(shape=Species, color=Species, fill=Species)) +
+  geom_line(aes(color=Species)) +
+  theme_classic() +
+  scale_shape_manual(values=c(16, 15, 17, 23, 25)) +
+  scale_color_manual(values=c("black", "black", "grey", "grey", "grey")) +
+  scale_fill_manual(values=c("black", "black",  "grey", "grey", "grey")) +
+  scale_x_continuous(name="Distance ERJ (mm)", limits=c(0, 60)) +
+  scale_y_continuous(name=expression("Enamel carbonate "*delta^13*C*" "("\u2030")), limits=c(-10, 8)) +
+  facet_wrap(~Site)
+#dev.off()
+```
+
+**_TABLES_**
+
+**TABLE 2 (Summary of bulk and median sequential carbon isotope data from the Mature Harappan period separated by species)**
+Select data to be used:
+```{r}
+Data_T2<-subset(Data, simple!="Wild" & Cultural_Period == "MHar" &   Site !="GWR")
+```
+
+
+```{r}
+Table2<-data.frame(
+  aggregate(d13C~Species,data=Data_T2,FUN=length),
+  aggregate(d13C~Species,data=Data_T2,FUN=mean),
+  aggregate(d13C~Species,data=Data_T2,FUN=sd),
+  aggregate(d13C~Species,data=Data_T2,FUN=IQR),
+  aggregate(d13C~Species,data=Data_T2,FUN=min),
+  aggregate(d13C~Species,data=Data_T2,FUN=max),
+  aggregate(d13C~Species,data=Data_T2,FUN=function(x){abs(min(x)-max(x))}))
+Table2 <- Table2[,c(1,2,4,6,8,10,12,14)]
+colnames(Table2) <- c("Species", "n", "Mean", "Standard Deviation", "IQR", "Minimum", "Maximum", "Range")
+Table2<-rbind( 
+  c("","","d13C (‰)","","","","",""),
+  names(Table2),
+  Table2)
+Table2
+
+#write.table(Table2, file="Table 2.csv", col.names = FALSE, row.names = FALSE, sep=",")
+```
+
+**TABLE 3 (Carbon isotope data summarised by tooth)**
+
+Make table:
+```{r}
+Table3<-data.frame(
+  aggregate(Individual~Specimen,data=Data,FUN=function(x){x[1]}),
+  aggregate(Tooth~Specimen,data=Data,FUN=function(x){x[1]}),
+  aggregate(Species~Specimen,data=Data,FUN=function(x){x[1]}),
+  aggregate(Site~Specimen,data=Data,FUN=function(x){x[1]}),
+  aggregate(Cultural_Period~Specimen,data=Data,FUN=function(x){x[1]}),
+  aggregate(d13C~Specimen,data=Data,FUN=length),
+  aggregate(d13C~Specimen,data=Data,FUN=min),
+  aggregate(d13C~Specimen,data=Data,FUN=max),
+  aggregate(d13C~Specimen,data=Data,FUN=mean),
+  aggregate(d13C~Specimen,data=Data,FUN=median),
+  aggregate(d13C~Specimen,data=Data,FUN=function(x){abs(max(x)-min(x))}))
+Table3 <- Table3[,c(1,2,4,6,8,10,12,14, 16, 18, 20, 22)]
+colnames(Table3) <- c("Sample", "Specimen", "Tooth", "Species", "Site", "Period", "n", "Minimum", "Maximum", "Mean", "Median", "Range")
+Table3$Sample <-NULL
+Table3<-rbind( 
+c("","","","","","d13C (‰)","","","","", ""),
+names(Table3),
+Table3)
+Table3
+#write.table( Table3, file="Table 3.csv", col.names = FALSE, row.names = FALSE, sep=",")
+```
+
+**_STATISTICAL ANALYSES_**
+
+**Compare bulk data from domestic species, urban period only, exclude Ganeshwar**
+Sample size of 'pig' is still very small  => exclude pig, just compare cow/buffalo to ovicparid. Creat a new dataframe exluding pig:
+
+```{r}
+Data_bulk_stats<- subset(Data_bulk_median_combined, simple != "Pig"  & simpleWild != "Wild")
+```
+
+Tests to see if data are parametric:
+
+Histograms, split by group
+```{r}
+ggplot(Data_bulk_stats, aes(x=d13C)) + 
+  geom_histogram(binwidth=0.1) + 
+  theme_bw() +
+  scale_x_continuous(name=expression(delta^13*C["CO3"]*" "("\u2030"))) +
+  facet_grid(simple~.)
+```
+
+Shapiro-Wilks Test
+```{r}
+shapiro.test(subset(Data_bulk_stats, simple %in% c("Cow/Buffalo"))$d13C)
+shapiro.test(subset(Data_bulk_stats, simple %in% c("Sheep/Goat"))$d13C)
+```
+
+Levenes Test
+```{r}
+leveneTest(d13C ~ simple, data=Data_bulk_stats)
+```
+
+Data are not parametric - use non-parametric tests (Kolmogorov-Smirnov Z):
+```{r}
+  ks.test(subset(Data_bulk_stats, simple %in% c("Cow/Buffalo"))$d13C, subset(Data_bulk_stats, simple %in% c("Sheep/Goat"))$d13C)
+```
+
+**Compare serial data from domestic species, urban period only, exclude Ganeshwar**
+```{r}
+Data_serial<- subset(Data, Bulk_Intra !="Bulk" & simpleWild != "Wild" & Cultural_Period == "MHar")
+```
+
+```{r}
+Data_serial_stats<-data.frame(
+  aggregate(Individual~Specimen,data=Data_serial,FUN=function(x){x[1]}),
+  aggregate(Tooth~Specimen,data=Data_serial,FUN=function(x){x[1]}),
+  aggregate(Species~Specimen,data=Data_serial,FUN=function(x){x[1]}),
+  aggregate(simple~Specimen,data=Data_serial,FUN=function(x){x[1]}),
+  aggregate(Site~Specimen,data=Data_serial,FUN=function(x){x[1]}),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=length),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=min),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=max),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=mean),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=median),
+  aggregate(d13C~Specimen,data=Data_serial,FUN=function(x){abs(max(x)-min(x))}))
+Data_serial_stats <- Data_serial_stats[,c(1,2,4,6,8,10,12,14, 16, 18, 20, 22)]
+colnames(Data_serial_stats) <- c("Sample", "Specimen", "Tooth", "Species", "simple", "Site","n", "Minimum", "Maximum", "Mean", "Median", "Range")
+```
+
+Compare ranges of Cow/Buffalo and Sheep/Goat
+
+Histograms, split by group
+```{r}
+ggplot(Data_serial_stats, aes(x=Range)) + 
+  geom_histogram(binwidth=0.2) + 
+  theme_bw() +
+  scale_x_continuous(name=expression(delta^13*C["CO3"]*" "("\u2030"))) +
+  facet_grid(simple~.)
+```
+
+Shapiro-Wilks Test
+```{r}
+shapiro.test(subset(Data_serial_stats, simple %in% c("Cow/Buffalo"))$Range)
+shapiro.test(subset(Data_serial_stats, simple %in% c("Sheep/Goat"))$Range)
+```
+
+Levenes Test
+```{r}
+leveneTest(Range ~ simple, data=Data_serial_stats)
+```
+
+Data are not parametric - use non-parametric tests (Kolmogorov-Smirnov Z):
+```{r}
+  ks.test(subset(Data_serial_stats, simple %in% c("Cow/Buffalo"))$Range, subset(Data_serial_stats, simple %in% c("Sheep/Goat"))$Range)
+```

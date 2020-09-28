@@ -1,0 +1,794 @@
+Sample,Individual,Tooth,Specimen,Bulk_Intra,DistERJ,Site,Species,Cultural_Period,Cultural_Phase,Urban_Period,d18O,d13C
+ALM_033_a,ALM_033,M2,ALM_033_M2,Intra,24,ALM,Bos indicus,MHar,MHar iii,Urban,-0.7,2.1
+ALM_033_b,ALM_033,M2,ALM_033_M2,Intra,21,ALM,Bos indicus,MHar,MHar iii,Urban,-1.4,1.9
+ALM_033_c,ALM_033,M2,ALM_033_M2,Intra,18,ALM,Bos indicus,MHar,MHar iii,Urban,-1.2,1.9
+ALM_033_d,ALM_033,M2,ALM_033_M2,Intra,15,ALM,Bos indicus,MHar,MHar iii,Urban,-0.7,2
+ALM_033_e,ALM_033,M2,ALM_033_M2,Intra,12,ALM,Bos indicus,MHar,MHar iii,Urban,-1,2.2
+ALM_033_g,ALM_033,M2,ALM_033_M2,Intra,9,ALM,Bos indicus,MHar,MHar iii,Urban,-2.1,2.9
+ALM_034_a,ALM_034,M2,ALM_034_M2,Intra,25,ALM,Bos indicus,MHar,MHar iii,Urban,0.2,-0.6
+ALM_034_c,ALM_034,M2,ALM_034_M2,Intra,20,ALM,Bos indicus,MHar,MHar iii,Urban,-1,0.4
+ALM_034_e,ALM_034,M2,ALM_034_M2,Intra,15,ALM,Bos indicus,MHar,MHar iii,Urban,-1.8,1.2
+ALM_034_f,ALM_034,M2,ALM_034_M2,Intra,10,ALM,Bos indicus,MHar,MHar iii,Urban,-0.9,2.6
+ALM_034_g,ALM_034,M2,ALM_034_M2,Intra,7,ALM,Bos indicus,MHar,MHar iii,Urban,-2,1.7
+ALM_035_a,ALM_035,M2,ALM_035_M2,Intra,18,ALM,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.2,0.6
+ALM_035_b,ALM_035,M2,ALM_035_M2,Intra,15,ALM,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.7,1.1
+ALM_035_c,ALM_035,M2,ALM_035_M2,Intra,13,ALM,Boselaphus tragocamelus,MHar,MHar iii,Urban,1.1,1.6
+ALM_035_e,ALM_035,M2,ALM_035_M2,Intra,7,ALM,Boselaphus tragocamelus,MHar,MHar iii,Urban,1.3,2.4
+ALM_035_f,ALM_035,M2,ALM_035_M2,Intra,5,ALM,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.2,2.9
+ALM_036_a,ALM_036,M3,ALM_036_M3,Intra,26,ALM,Bos indicus,MHar,MHar iii,Urban,-1.9,3.4
+ALM_036_b,ALM_036,M3,ALM_036_M3,Intra,23,ALM,Bos indicus,MHar,MHar iii,Urban,-2.4,3.6
+ALM_036_c,ALM_036,M3,ALM_036_M3,Intra,20,ALM,Bos indicus,MHar,MHar iii,Urban,-2.9,3.7
+ALM_036_d,ALM_036,M3,ALM_036_M3,Intra,17,ALM,Bos indicus,MHar,MHar iii,Urban,-3.4,3.8
+ALM_036_e,ALM_036,M3,ALM_036_M3,Intra,14,ALM,Bos indicus,MHar,MHar iii,Urban,-3.7,3.8
+ALM_036_f,ALM_036,M3,ALM_036_M3,Intra,11,ALM,Bos indicus,MHar,MHar iii,Urban,-3.5,3.4
+ALM_036_g,ALM_036,M3,ALM_036_M3,Intra,8,ALM,Bos indicus,MHar,MHar iii,Urban,-3.1,3
+ALM_036_h,ALM_036,M3,ALM_036_M3,Intra,4,ALM,Bos indicus,MHar,MHar iii,Urban,-1,2.8
+ALM_088_c,ALM_088,m3,ALM_088_m3,Intra,26.5,ALM,Antilope cervicapra,MHar,MHar iii,Urban,-2.3,1.7
+ALM_088_e,ALM_088,m3,ALM_088_m3,Intra,7.5,ALM,Antilope cervicapra,MHar,MHar iii,Urban,-1,-2.6
+ALM_128_a,ALM_128,M3,ALM_128_M3,Intra,19,ALM,Bos gaurus,MHar,MHar iii,Urban,-2.9,1.3
+ALM_128_b,ALM_128,M3,ALM_128_M3,Intra,16,ALM,Bos gaurus,MHar,MHar iii,Urban,-2.6,0.7
+ALM_128_c,ALM_128,M3,ALM_128_M3,Intra,12,ALM,Bos gaurus,MHar,MHar iii,Urban,-1.6,0
+ALM_128_d,ALM_128,M3,ALM_128_M3,Intra,10,ALM,Bos gaurus,MHar,MHar iii,Urban,0.7,-0.9
+ALM_128_e,ALM_128,M3,ALM_128_M3,Intra,7,ALM,Bos gaurus,MHar,MHar iii,Urban,0.3,-1.4
+ALM_135_a,ALM_135,m3,ALM_135_m3,Intra,25,ALM,Ovis aries,MHar,MHar iii,Urban,-1.7,-2.1
+ALM_135_b,ALM_135,m3,ALM_135_m3,Intra,22,ALM,Ovis aries,MHar,MHar iii,Urban,-1.7,-1.8
+ALM_135_c,ALM_135,m3,ALM_135_m3,Intra,18,ALM,Ovis aries,MHar,MHar iii,Urban,-0.2,-1
+ALM_135_d,ALM_135,m3,ALM_135_m3,Intra,15,ALM,Ovis aries,MHar,MHar iii,Urban,1.2,-0.2
+ALM_135_e,ALM_135,m3,ALM_135_m3,Intra,13,ALM,Ovis aries,MHar,MHar iii,Urban,0.2,0.1
+ALM_135_f,ALM_135,m3,ALM_135_m3,Intra,10,ALM,Ovis aries,MHar,MHar iii,Urban,-0.6,0.6
+ALM_135_g,ALM_135,m3,ALM_135_m3,Intra,6,ALM,Ovis aries,MHar,MHar iii,Urban,-2.8,1.2
+ALM_152_a,ALM_152,M2,ALM_152_M2,Intra,35,ALM,Bos indicus,MHar,MHar iii,Urban,1.3,0.8
+ALM_152_b,ALM_152,M2,ALM_152_M2,Intra,32,ALM,Bos indicus,MHar,MHar iii,Urban,1.3,0.8
+ALM_152_c,ALM_152,M2,ALM_152_M2,Intra,28,ALM,Bos indicus,MHar,MHar iii,Urban,0.9,1.3
+ALM_152_d,ALM_152,M2,ALM_152_M2,Intra,25,ALM,Bos indicus,MHar,MHar iii,Urban,-0.8,1.9
+ALM_152_e,ALM_152,M2,ALM_152_M2,Intra,21,ALM,Bos indicus,MHar,MHar iii,Urban,-1.6,2.1
+ALM_152_f,ALM_152,M2,ALM_152_M2,Intra,17,ALM,Bos indicus,MHar,MHar iii,Urban,-2.5,2.3
+ALM_152_g,ALM_152,M2,ALM_152_M2,Intra,14,ALM,Bos indicus,MHar,MHar iii,Urban,-1.8,2.2
+ALM_152_h,ALM_152,M2,ALM_152_M2,Intra,10,ALM,Bos indicus,MHar,MHar iii,Urban,-2.5,1.8
+ALM_152_i,ALM_152,M2,ALM_152_M2,Intra,6,ALM,Bos indicus,MHar,MHar iii,Urban,-1.8,1.2
+ALM_152_j,ALM_152,M2,ALM_152_M2,Intra,3,ALM,Bos indicus,MHar,MHar iii,Urban,-1.8,0.7
+ALM_153_a,ALM_153,M3,ALM_153_M3,Intra,40,ALM,Bos indicus,MHar,MHar iii,Urban,-0.1,-0.6
+ALM_153_b,ALM_153,M3,ALM_153_M3,Intra,37,ALM,Bos indicus,MHar,MHar iii,Urban,0.7,-0.6
+ALM_153_c,ALM_153,M3,ALM_153_M3,Intra,34,ALM,Bos indicus,MHar,MHar iii,Urban,0.6,-0.1
+ALM_153_d,ALM_153,M3,ALM_153_M3,Intra,31,ALM,Bos indicus,MHar,MHar iii,Urban,-0.6,0.3
+ALM_153_e,ALM_153,M3,ALM_153_M3,Intra,27,ALM,Bos indicus,MHar,MHar iii,Urban,-0.4,0.7
+ALM_153_g,ALM_153,M3,ALM_153_M3,Intra,20,ALM,Bos indicus,MHar,MHar iii,Urban,-1.7,1.5
+ALM_153_h,ALM_153,M3,ALM_153_M3,Intra,16,ALM,Bos indicus,MHar,MHar iii,Urban,-2.3,1
+ALM_153_i,ALM_153,M3,ALM_153_M3,Intra,11,ALM,Bos indicus,MHar,MHar iii,Urban,-1.6,0.1
+ALM_153_j,ALM_153,M3,ALM_153_M3,Intra,7,ALM,Bos indicus,MHar,MHar iii,Urban,-0.4,-0.4
+ALM_183_a,ALM_183,M3,ALM_183_M3,Intra,33,ALM,Bos indicus,PGW,PGW,Post-Indus,-1.2,3.9
+ALM_183_b,ALM_183,M3,ALM_183_M3,Intra,29,ALM,Bos indicus,PGW,PGW,Post-Indus,0.1,3.6
+ALM_183_c,ALM_183,M3,ALM_183_M3,Intra,26,ALM,Bos indicus,PGW,PGW,Post-Indus,-1.1,3.8
+ALM_183_d,ALM_183,M3,ALM_183_M3,Intra,22,ALM,Bos indicus,PGW,PGW,Post-Indus,1.4,3.7
+ALM_183_e,ALM_183,M3,ALM_183_M3,Intra,18,ALM,Bos indicus,PGW,PGW,Post-Indus,1.7,3.6
+ALM_183_f,ALM_183,M3,ALM_183_M3,Intra,15,ALM,Bos indicus,PGW,PGW,Post-Indus,1.8,4
+ALM_183_g,ALM_183,M3,ALM_183_M3,Intra,11,ALM,Bos indicus,PGW,PGW,Post-Indus,0,3.8
+ALM_183_h,ALM_183,M3,ALM_183_M3,Intra,8,ALM,Bos indicus,PGW,PGW,Post-Indus,-0.2,4.2
+ALM_196_a,ALM_196,M2,ALM_196_M2,Intra,2,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,-3.4,4.1
+ALM_196_b,ALM_196,M2,ALM_196_M2,Intra,24,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,-2.6,3
+ALM_196_c,ALM_196,M2,ALM_196_M2,Intra,20,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,-1,2.2
+ALM_196_d,ALM_196,M2,ALM_196_M2,Intra,17,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,0.8,1
+ALM_196_e,ALM_196,M2,ALM_196_M2,Intra,13,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,0.7,0.1
+ALM_196_f,ALM_196,M2,ALM_196_M2,Intra,9,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,1.2,0.2
+ALM_196_g,ALM_196,M2,ALM_196_M2,Intra,6,ALM,Tetracerus quadricornus,PGW,PGW,Post-Indus,1.6,0.8
+ALM_259_a,ALM_259,m3,ALM_259_m3,Intra,17,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,2.5,-1
+ALM_259_b,ALM_259,m3,ALM_259_m3,Intra,15,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,3.1,0.2
+ALM_259_c,ALM_259,m3,ALM_259_m3,Intra,13,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,0.6,0.9
+ALM_259_d,ALM_259,m3,ALM_259_m3,Intra,10,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,0.7,1.6
+ALM_259_e,ALM_259,m3,ALM_259_m3,Intra,8,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,-0.9,1.8
+ALM_259_f,ALM_259,m3,ALM_259_m3,Intra,5,ALM,Antilope cervicapra,PGW,PGW,Post-Indus,-1.1,0.2
+ALM_NN011_a,ALM_NN011,M3,ALM_NN011_M3,Intra,26,ALM,Bos indicus,PGW,PGW,Post-Indus,1.4,2.9
+ALM_NN011_c,ALM_NN011,M3,ALM_NN011_M3,Intra,20,ALM,Bos indicus,PGW,PGW,Post-Indus,2.6,3.2
+ALM_NN011_d,ALM_NN011,M3,ALM_NN011_M3,Intra,17,ALM,Bos indicus,PGW,PGW,Post-Indus,0.8,3.4
+ALM_NN011_e,ALM_NN011,M3,ALM_NN011_M3,Intra,15,ALM,Bos indicus,PGW,PGW,Post-Indus,0.1,3.6
+ALM_NN011_f,ALM_NN011,M3,ALM_NN011_M3,Intra,13,ALM,Bos indicus,PGW,PGW,Post-Indus,-0.5,3.8
+ALM_NN011_g,ALM_NN011,M3,ALM_NN011_M3,Intra,10,ALM,Bos indicus,PGW,PGW,Post-Indus,-2.6,3.8
+ALM_NN011_h,ALM_NN011,M3,ALM_NN011_M3,Intra,7,ALM,Bos indicus,PGW,PGW,Post-Indus,-4.2,3.5
+ALM031_M1_2,ALM_031,M1/M2,ALM_031_M1/M2,Bulk,NA,ALM,Sus scrofa,MHar,MHar iii,Urban,-3.4,-9.3
+ALM102_M1,ALM_102,M1,ALM_102_M1,Bulk,NA,ALM,Sus domesticus,PGW,PGW,Post-Indus,-7.1,-11.9
+ALM114_M1,ALM_114,M1,ALM_114_M1,Bulk,NA,ALM,Sus domesticus,PGW,PGW,Post-Indus,-6.3,-11.6
+ALM126_M2,ALM_126,M2,ALM_126_M2,Bulk,NA,ALM,Sus scrofa,MHar,MHar iii,Urban,-5.5,-9.9
+ALM200_M1_2,ALM_200,M1/M2,ALM_200_M1/M2,Bulk,NA,ALM,Capra hircus,Medieval/PGW,Medieval/PGW,Post-Indus,-0.9,-1.8
+ALM230_M1_2_a,ALM_230,M1/M2,ALM_230_M1/M2,Intra,31.9,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,2.7,-0.4
+ALM230_M1_2_b,ALM_230,M1/M2,ALM_230_M1/M2,Intra,29.4,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,2.6,-0.1
+ALM230_M1_2_c,ALM_230,M1/M2,ALM_230_M1/M2,Intra,27.9,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,2,0.1
+ALM230_M1_2_d,ALM_230,M1/M2,ALM_230_M1/M2,Intra,25.6,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,3.7,0.2
+ALM230_M1_2_e,ALM_230,M1/M2,ALM_230_M1/M2,Intra,22.9,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,2.8,0.2
+ALM230_M1_2_f,ALM_230,M1/M2,ALM_230_M1/M2,Intra,20,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,2.8,0.3
+ALM230_M1_2_g,ALM_230,M1/M2,ALM_230_M1/M2,Intra,17.8,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,1.4,0.3
+ALM230_M1_2_h,ALM_230,M1/M2,ALM_230_M1/M2,Intra,15.1,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,0.3,0.6
+ALM230_M1_2_i,ALM_230,M1/M2,ALM_230_M1/M2,Intra,11.7,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,-1.2,1
+ALM230_M1_2_j,ALM_230,M1/M2,ALM_230_M1/M2,Intra,8.9,ALM,Capra/Ovis,Early Historic,Early Historic,Post-Indus,-1.7,1
+ALM232_M1_a,ALM_232,M1,ALM_232_M1,Intra,16.5,ALM,Capra hircus,Early Historic,Early Historic,Post-Indus,-1,0.8
+ALM232_M1_b,ALM_232,M1,ALM_232_M1,Intra,13.7,ALM,Capra hircus,Early Historic,Early Historic,Post-Indus,0.9,0.7
+ALM232_M1_c,ALM_232,M1,ALM_232_M1,Intra,10.6,ALM,Capra hircus,Early Historic,Early Historic,Post-Indus,0.4,0.6
+ALM232_M1_d,ALM_232,M1,ALM_232_M1,Intra,7.2,ALM,Capra hircus,Early Historic,Early Historic,Post-Indus,0.3,0.4
+ALM232_M1_e,ALM_232,M1,ALM_232_M1,Intra,4.2,ALM,Capra hircus,Early Historic,Early Historic,Post-Indus,-1.5,1.3
+ALMNN013_M1_2_a,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,33.4,ALM,Capra/Ovis,PGW,PGW,Post-Indus,2.6,0.5
+ALMNN013_M1_2_b,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,30,ALM,Capra/Ovis,PGW,PGW,Post-Indus,2.3,0.6
+ALMNN013_M1_2_d,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,23,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-1.1,1.2
+ALMNN013_M1_2_e,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,19,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-2.8,2.3
+ALMNN013_M1_2_f,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,14.5,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-3.8,2.2
+ALMNN013_M1_2_g,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,11,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-2.9,2.6
+ALMNN013_M1_2_h,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,7.5,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-2.3,1.9
+ALMNN013_M1_2_i,ALMNN_013,M1/M2,ALMNN_013_M1/M2,Intra,4.1,ALM,Capra/Ovis,PGW,PGW,Post-Indus,-2.1,1.9
+BRJ_636_a,BRJ_636,m2,BRJ_636_m2,Intra,25.5,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,-0.2,3
+BRJ_636_c,BRJ_636,m2,BRJ_636_m2,Intra,19,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,-1.2,2.6
+BRJ_636_e,BRJ_636,m2,BRJ_636_m2,Intra,9.5,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,0.5,2.3
+BRJ_648_a,BRJ_648,m2,BRJ_648_m2,Intra,14,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,6.1,-4.5
+BRJ_648_b,BRJ_648,m2,BRJ_648_m2,Intra,9,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,5.7,-4.6
+BRJ_648_c,BRJ_648,m2,BRJ_648_m2,Intra,6,BRJ,Tetracerus quadricornus,PGW,PGW,Post-Indus,3.7,-4.1
+BRJ_652_bulk,BRJ_652,M1/M2,BRJ_652_M1/M2,Bulk,NA,BRJ,Bos indicus,PGW,PGW,Post-Indus,3,2.7
+BRJ_655_a,BRJ_655,M3,BRJ_655_M3,Intra,36,BRJ,Bos indicus,PGW,PGW,Post-Indus,-0.7,3.6
+BRJ_655_b,BRJ_655,M3,BRJ_655_M3,Intra,34,BRJ,Bos indicus,PGW,PGW,Post-Indus,-0.6,3.4
+BRJ_655_c,BRJ_655,M3,BRJ_655_M3,Intra,31,BRJ,Bos indicus,PGW,PGW,Post-Indus,0.2,3.3
+BRJ_655_d,BRJ_655,M3,BRJ_655_M3,Intra,29,BRJ,Bos indicus,PGW,PGW,Post-Indus,0.8,3.4
+BRJ_655_e,BRJ_655,M3,BRJ_655_M3,Intra,26,BRJ,Bos indicus,PGW,PGW,Post-Indus,1.7,3.1
+BRJ_655_f,BRJ_655,M3,BRJ_655_M3,Intra,22,BRJ,Bos indicus,PGW,PGW,Post-Indus,2.4,2.8
+BRJ_655_h,BRJ_655,M3,BRJ_655_M3,Intra,15,BRJ,Bos indicus,PGW,PGW,Post-Indus,1.4,3
+BRJ_655_i,BRJ_655,M3,BRJ_655_M3,Intra,12,BRJ,Bos indicus,PGW,PGW,Post-Indus,1.2,2.8
+BRJ_655_j,BRJ_655,M3,BRJ_655_M3,Intra,9,BRJ,Bos indicus,PGW,PGW,Post-Indus,0.4,3.1
+BRJ_686_a,BRJ_686,m3,BRJ_686_m3,Intra,34,BRJ,Bos indicus,MHar,MHar i,Urban,-0.4,3.3
+BRJ_686_b,BRJ_686,m3,BRJ_686_m3,Intra,32,BRJ,Bos indicus,MHar,MHar i,Urban,-0.9,3.5
+BRJ_686_c,BRJ_686,m3,BRJ_686_m3,Intra,30,BRJ,Bos indicus,MHar,MHar i,Urban,-0.8,3.4
+BRJ_686_d,BRJ_686,m3,BRJ_686_m3,Intra,27,BRJ,Bos indicus,MHar,MHar i,Urban,-0.8,3.5
+BRJ_686_e,BRJ_686,m3,BRJ_686_m3,Intra,24,BRJ,Bos indicus,MHar,MHar i,Urban,-0.9,3.2
+BRJ_686_f,BRJ_686,m3,BRJ_686_m3,Intra,22,BRJ,Bos indicus,MHar,MHar i,Urban,-0.7,3.1
+BRJ_686_h,BRJ_686,m3,BRJ_686_m3,Intra,16,BRJ,Bos indicus,MHar,MHar i,Urban,0.3,2.9
+BRJ_686_i,BRJ_686,m3,BRJ_686_m3,Intra,12,BRJ,Bos indicus,MHar,MHar i,Urban,1.2,3.2
+BRJ_686_j,BRJ_686,m3,BRJ_686_m3,Intra,9,BRJ,Bos indicus,MHar,MHar i,Urban,1.3,3.1
+BRJ_686_k,BRJ_686,m3,BRJ_686_m3,Intra,6,BRJ,Bos indicus,MHar,MHar i,Urban,1.4,3.6
+BRJ_808_a,BRJ_808,M3,BRJ_808_M3,Intra,35,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,3,3.1
+BRJ_808_b,BRJ_808,M3,BRJ_808_M3,Intra,33,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,3.8,3.1
+BRJ_808_c,BRJ_808,M3,BRJ_808_M3,Intra,31,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,3.5,2.9
+BRJ_808_d,BRJ_808,M3,BRJ_808_M3,Intra,28,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,3,2.8
+BRJ_808_e,BRJ_808,M3,BRJ_808_M3,Intra,25,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,3,2.7
+BRJ_808_f,BRJ_808,M3,BRJ_808_M3,Intra,22,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,4.1,2.8
+BRJ_808_g,BRJ_808,M3,BRJ_808_M3,Intra,19,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,0.8,2.9
+BRJ_808_h,BRJ_808,M3,BRJ_808_M3,Intra,14,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,2.5,3.1
+BRJ_808_i,BRJ_808,M3,BRJ_808_M3,Intra,10,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,-0.2,3.6
+BRJ_808_j,BRJ_808,M3,BRJ_808_M3,Intra,7,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,-0.9,3.8
+BRJ_808_k,BRJ_808,M3,BRJ_808_M3,Intra,4,BRJ,Bos indicus,Early Historic,Early Historic,Post-Indus,0.2,3.5
+BRJ_NN01_bulk,BRJ_NN01,M1/M2,BRJ_NN01_M1/M2,Bulk,NA,BRJ,Bos indicus,PGW,PGW,Post-Indus,2,1.5
+DVC_018_bulk,DVC_018,M3,DVC_018_M3,Bulk,NA,DVC,Capra hircus,MHar,MHar i,Urban,2.8,-1.9
+DVC_107_a,DVC_107,m3,DVC_107_m3,Intra,20,DVC,Bos indicus,MHar,MHar i,Urban,1.3,3.2
+DVC_107_b,DVC_107,m3,DVC_107_m3,Intra,18,DVC,Bos indicus,MHar,MHar i,Urban,1,3.3
+DVC_107_c,DVC_107,m3,DVC_107_m3,Intra,14,DVC,Bos indicus,MHar,MHar i,Urban,0.8,3.3
+DVC_107_d,DVC_107,m3,DVC_107_m3,Intra,12,DVC,Bos indicus,MHar,MHar i,Urban,1.1,3.4
+DVC_107_e,DVC_107,m3,DVC_107_m3,Intra,9,DVC,Bos indicus,MHar,MHar i,Urban,1,3.3
+DVC_107_f,DVC_107,m3,DVC_107_m3,Intra,7,DVC,Bos indicus,MHar,MHar i,Urban,0.9,3.3
+DVC_107_g,DVC_107,m3,DVC_107_m3,Intra,5,DVC,Bos indicus,MHar,MHar i,Urban,0.9,3.2
+DVC_107_h,DVC_107,m3,DVC_107_m3,Intra,3,DVC,Bos indicus,MHar,MHar i,Urban,0.7,2.8
+DVC_107_i,DVC_107,m3,DVC_107_m3,Intra,1,DVC,Bos indicus,MHar,MHar i,Urban,0.9,2.5
+DVC_222_b,DVC_222,M3,DVC_222_M3,Intra,12.5,DVC,Capra hircus,MHar,MHar i,Urban,2.6,-3.2
+DVC_222_c,DVC_222,M3,DVC_222_M3,Intra,6.5,DVC,Capra hircus,MHar,MHar i,Urban,1.6,-3.9
+DVC_225_a,DVC_225,M2,DVC_225_M2,Intra,13,DVC,Bos indicus,MHar,MHar i,Urban,1.4,3
+DVC_225_b,DVC_225,M2,DVC_225_M2,Intra,10,DVC,Bos indicus,MHar,MHar i,Urban,0.8,3.1
+DVC_225_c,DVC_225,M2,DVC_225_M2,Intra,7,DVC,Bos indicus,MHar,MHar i,Urban,0,3.5
+DVC_225_d,DVC_225,M2,DVC_225_M2,Intra,4,DVC,Bos indicus,MHar,MHar i,Urban,-0.8,3.9
+DVC_225_e,DVC_225,M2,DVC_225_M2,Intra,15,DVC,Bos indicus,MHar,MHar i,Urban,-0.9,4
+DVC_279_a,DVC_279,M3,DVC_279_M3,Intra,44,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,0.7,3.2
+DVC_279_b,DVC_279,M3,DVC_279_M3,Intra,37,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,-0.8,3.5
+DVC_279_c,DVC_279,M3,DVC_279_M3,Intra,32,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,-0.9,3.6
+DVC_279_d,DVC_279,M3,DVC_279_M3,Intra,29,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,-0.7,3.7
+DVC_279_e,DVC_279,M3,DVC_279_M3,Intra,25,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,-0.2,3.5
+DVC_279_f,DVC_279,M3,DVC_279_M3,Intra,23,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,1.1,3.6
+DVC_279_g,DVC_279,M3,DVC_279_M3,Intra,19,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,1.4,3.7
+DVC_279_h,DVC_279,M3,DVC_279_M3,Intra,15,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,2.4,3.7
+DVC_279_i,DVC_279,M3,DVC_279_M3,Intra,11,DVC,Bubalus bubalis,Early Historic,Early Historic,Post-Indus,3,3.7
+DVC_502_a,DVC_502,M2,DVC_502_M2,Intra,32,DVC,Bubalus bubalis,MHar,MHar i,Urban,1.7,1.3
+DVC_502_b,DVC_502,M2,DVC_502_M2,Intra,28,DVC,Bubalus bubalis,MHar,MHar i,Urban,2.1,1.6
+DVC_502_c,DVC_502,M2,DVC_502_M2,Intra,25,DVC,Bubalus bubalis,MHar,MHar i,Urban,0.1,2.6
+DVC_502_d,DVC_502,M2,DVC_502_M2,Intra,18,DVC,Bubalus bubalis,MHar,MHar i,Urban,0,3
+DVC_502_e,DVC_502,M2,DVC_502_M2,Intra,13,DVC,Bubalus bubalis,MHar,MHar i,Urban,-0.7,3.2
+DVC_509_a,DVC_509,m2,DVC_509_m2,Intra,25,DVC,Bos indicus,MHar,MHar i,Urban,-1.5,1.2
+DVC_509_b,DVC_509,m2,DVC_509_m2,Intra,21,DVC,Bos indicus,MHar,MHar i,Urban,-2,1.7
+DVC_509_c,DVC_509,m2,DVC_509_m2,Intra,18,DVC,Bos indicus,MHar,MHar i,Urban,-2.4,1.9
+DVC_509_d,DVC_509,m2,DVC_509_m2,Intra,14,DVC,Bos indicus,MHar,MHar i,Urban,-2.3,2
+DVC_509_e,DVC_509,m2,DVC_509_m2,Intra,10,DVC,Bos indicus,MHar,MHar i,Urban,-2.1,2.1
+DVC_509_f,DVC_509,m2,DVC_509_m2,Intra,7,DVC,Bos indicus,MHar,MHar i,Urban,-2,2.2
+DVC_509_g,DVC_509,m2,DVC_509_m2,Intra,5,DVC,Bos indicus,MHar,MHar i,Urban,-1.5,1.8
+DVC_554*,DVC_554,M2,DVC_554_M2,Bulk,NA,DVC,Sus scrofa,MHar,MHar i,Urban,-2.2,-9
+DVC_558_a,DVC_558,M2,DVC_558_M2,Intra,27,DVC,Capra hircus,MHar,MHar i,Urban,4.5,-0.9
+DVC_558_b,DVC_558,M2,DVC_558_M2,Intra,23,DVC,Capra hircus,MHar,MHar i,Urban,5.8,-0.8
+DVC_560_a,DVC_560,M2,DVC_560_M2,Intra,21,DVC,Cervus unicolor,MHar,MHar i,Urban,0,1.9
+DVC_560_b,DVC_560,M2,DVC_560_M2,Intra,17,DVC,Cervus unicolor,MHar,MHar i,Urban,1.9,0.6
+DVC_560_c,DVC_560,M2,DVC_560_M2,Intra,13,DVC,Cervus unicolor,MHar,MHar i,Urban,3.3,-0.4
+DVC_560_d,DVC_560,M2,DVC_560_M2,Intra,10,DVC,Cervus unicolor,MHar,MHar i,Urban,3.3,-1.1
+DVC_560_e,DVC_560,M2,DVC_560_M2,Intra,7,DVC,Cervus unicolor,MHar,MHar i,Urban,4.2,-1.8
+DVC_560_f,DVC_560,M2,DVC_560_M2,Intra,5,DVC,Cervus unicolor,MHar,MHar i,Urban,3.7,-1.6
+DVC130_M1,DVC_130,M1,DVC_130_M1,Bulk,NA,DVC,Capra/Ovis,MHar,MHar i,Urban,-1.9,-9.2
+DVC530_DP4,DVC_530,DP4,DVC_530_DP4,Bulk,NA,DVC,Antilope cervicapra,MHar,MHar i,Urban,0,-7.3
+DVC561_M1_2_a,DVC_561,M1/M2,DVC_561_M1/M2,Intra,22.6,DVC,Capra hircus,MHar,MHar i,Urban,1.6,-2.4
+DVC561_M1_2_b,DVC_561,M1/M2,DVC_561_M1/M2,Intra,19.2,DVC,Capra hircus,MHar,MHar i,Urban,1.7,-2.6
+DVC561_M1_2_c,DVC_561,M1/M2,DVC_561_M1/M2,Intra,15.9,DVC,Capra hircus,MHar,MHar i,Urban,2.2,-4
+DVC561_M1_2_d,DVC_561,M1/M2,DVC_561_M1/M2,Intra,12.9,DVC,Capra hircus,MHar,MHar ii,Urban,2.8,-6.1
+FR_1704_a,FR_1704,M3,FR_1704_M3,Intra,24.5,FRM,Bos indicus,MHar,MHar ii,Urban,-2.4,0.6
+FR_1704_b,FR_1704,M3,FR_1704_M3,Intra,22.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.7,0.4
+FR_1704_c,FR_1704,M3,FR_1704_M3,Intra,20.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.7,0.5
+FR_1704_d,FR_1704,M3,FR_1704_M3,Intra,18.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,0.4
+FR_1704_e,FR_1704,M3,FR_1704_M3,Intra,16.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,0.6
+FR_1704_f,FR_1704,M3,FR_1704_M3,Intra,14.3,FRM,Bos indicus,MHar,MHar ii,Urban,-1,0.6
+FR_1704_g,FR_1704,M3,FR_1704_M3,Intra,12.3,FRM,Bos indicus,MHar,MHar ii,Urban,0.1,0.7
+FR_1704_h,FR_1704,M3,FR_1704_M3,Intra,10.3,FRM,Bos indicus,MHar,MHar ii,Urban,0.2,0.9
+FR_1704_i,FR_1704,M3,FR_1704_M3,Intra,8.3,FRM,Bos indicus,MHar,MHar ii,Urban,1.1,1.5
+FR_1704_j,FR_1704,M3,FR_1704_M3,Intra,6.3,FRM,Bos indicus,MHar,MHar ii,Urban,1,1.6
+FR_1704_k,FR_1704,M3,FR_1704_M3,Intra,4.1,FRM,Bos indicus,MHar,MHar ii,Urban,-0.2,1.9
+FR_1706_a,FR_1706,M2,FR_1706_M2,Intra,21.4,FRM,Bos indicus,MHar,MHar ii,Urban,-3.6,3.7
+FR_1706_b,FR_1706,M2,FR_1706_M2,Intra,19.5,FRM,Bos indicus,MHar,MHar ii,Urban,-2.7,3.5
+FR_1706_c,FR_1706,M2,FR_1706_M2,Intra,17.7,FRM,Bos indicus,MHar,MHar ii,Urban,-2.3,3.5
+FR_1706_d,FR_1706,M2,FR_1706_M2,Intra,15.8,FRM,Bos indicus,MHar,MHar ii,Urban,-2.2,3.5
+FR_1706_e,FR_1706,M2,FR_1706_M2,Intra,13.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1.1,3.2
+FR_1706_f,FR_1706,M2,FR_1706_M2,Intra,12,FRM,Bos indicus,MHar,MHar ii,Urban,-0.9,3
+FR_1706_g,FR_1706,M2,FR_1706_M2,Intra,10,FRM,Bos indicus,MHar,MHar ii,Urban,0,2.9
+FR_1706_h,FR_1706,M2,FR_1706_M2,Intra,8,FRM,Bos indicus,MHar,MHar ii,Urban,0.7,2.8
+FR_1706_i,FR_1706,M2,FR_1706_M2,Intra,6.2,FRM,Bos indicus,MHar,MHar ii,Urban,1.4,2.7
+FR_1706_j,FR_1706,M2,FR_1706_M2,Intra,4.3,FRM,Bos indicus,MHar,MHar ii,Urban,2.2,2
+FR_1706_k,FR_1706,M2,FR_1706_M2,Intra,2.5,FRM,Bos indicus,MHar,MHar ii,Urban,2.4,2.2
+FR_1709_a,FR_1709,M3,FR_1709_M3,Intra,28,FRM,Bos indicus,MHar,MHar ii,Urban,-0.5,2.7
+FR_1709_b,FR_1709,M3,FR_1709_M3,Intra,26.2,FRM,Bos indicus,MHar,MHar ii,Urban,-0.9,3
+FR_1709_c,FR_1709,M3,FR_1709_M3,Intra,24.2,FRM,Bos indicus,MHar,MHar ii,Urban,-1.7,2.9
+FR_1709_d,FR_1709,M3,FR_1709_M3,Intra,22.2,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,3.2
+FR_1709_e,FR_1709,M3,FR_1709_M3,Intra,20.3,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,3.2
+FR_1709_f,FR_1709,M3,FR_1709_M3,Intra,18.3,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,2.9
+FR_1709_g,FR_1709,M3,FR_1709_M3,Intra,16.5,FRM,Bos indicus,MHar,MHar ii,Urban,-2.1,2.7
+FR_1709_h,FR_1709,M3,FR_1709_M3,Intra,14.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.1,2.9
+FR_1709_i,FR_1709,M3,FR_1709_M3,Intra,12.6,FRM,Bos indicus,MHar,MHar ii,Urban,-2.2,2.4
+FR_1709_j,FR_1709,M3,FR_1709_M3,Intra,10.6,FRM,Bos indicus,MHar,MHar ii,Urban,-2.3,2.2
+FR_1709_k,FR_1709,M3,FR_1709_M3,Intra,8.3,FRM,Bos indicus,MHar,MHar ii,Urban,-2.4,2.1
+FR_1709_l,FR_1709,M3,FR_1709_M3,Intra,6.3,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,2.4
+FR_1709_m,FR_1709,M3,FR_1709_M3,Intra,3.5,FRM,Bos indicus,MHar,MHar ii,Urban,-0.7,2.4
+FR_1709_n,FR_1709,M3,FR_1709_M3,Intra,2.3,FRM,Bos indicus,MHar,MHar ii,Urban,-0.3,2.4
+FR_1711_M2_a,FR_1711,M2,FR_1711_M2,Intra,13.2,FRM,Bos indicus,MHar,MHar ii,Urban,3.7,2.3
+FR_1711_M2_b,FR_1711,M2,FR_1711_M2,Intra,11.3,FRM,Bos indicus,MHar,MHar ii,Urban,4.1,2.6
+FR_1711_M2_c,FR_1711,M2,FR_1711_M2,Intra,9.1,FRM,Bos indicus,MHar,MHar ii,Urban,4.1,2.7
+FR_1711_M2_d,FR_1711,M2,FR_1711_M2,Intra,7.2,FRM,Bos indicus,MHar,MHar ii,Urban,3.9,2.6
+FR_1711_M2_e,FR_1711,M2,FR_1711_M2,Intra,5.7,FRM,Bos indicus,MHar,MHar ii,Urban,2.9,2.4
+FR_1711_M3_a,FR_1711,M3,FR_1711_M3,Intra,18.8,FRM,Bos indicus,MHar,MHar ii,Urban,4.5,3
+FR_1711_M3_b,FR_1711,M3,FR_1711_M3,Intra,16.8,FRM,Bos indicus,MHar,MHar ii,Urban,4.9,3.1
+FR_1711_M3_c,FR_1711,M3,FR_1711_M3,Intra,14.9,FRM,Bos indicus,MHar,MHar ii,Urban,4.7,3
+FR_1711_M3_d,FR_1711,M3,FR_1711_M3,Intra,12.9,FRM,Bos indicus,MHar,MHar ii,Urban,4.6,3
+FR_1711_M3_e,FR_1711,M3,FR_1711_M3,Intra,11,FRM,Bos indicus,MHar,MHar ii,Urban,4.3,3.1
+FR_1711_M3_f,FR_1711,M3,FR_1711_M3,Intra,8.8,FRM,Bos indicus,MHar,MHar ii,Urban,3.9,3
+FR_1711_M3_g,FR_1711,M3,FR_1711_M3,Intra,6.6,FRM,Bos indicus,MHar,MHar ii,Urban,4.1,3
+FR_1711_M3_h,FR_1711,M3,FR_1711_M3,Intra,4.9,FRM,Bos indicus,MHar,MHar ii,Urban,3.5,2.9
+FR_1713_a,FR_1713,M3,FR_1713_M3,Intra,28.2,FRM,Ovis aries,MHar,MHar ii,Urban,1.2,-4.7
+FR_1713_b,FR_1713,M3,FR_1713_M3,Intra,26.2,FRM,Ovis aries,MHar,MHar ii,Urban,1.3,-4
+FR_1713_c,FR_1713,M3,FR_1713_M3,Intra,24.2,FRM,Ovis aries,MHar,MHar ii,Urban,1,-3.9
+FR_1713_d,FR_1713,M3,FR_1713_M3,Intra,21.7,FRM,Ovis aries,MHar,MHar ii,Urban,1.3,-4.1
+FR_1713_e,FR_1713,M3,FR_1713_M3,Intra,19.1,FRM,Ovis aries,MHar,MHar ii,Urban,1.6,-5.7
+FR_1713_f,FR_1713,M3,FR_1713_M3,Intra,16.7,FRM,Ovis aries,MHar,MHar ii,Urban,1,-7.7
+FR_1713_g,FR_1713,M3,FR_1713_M3,Intra,13.8,FRM,Ovis aries,MHar,MHar ii,Urban,-0.1,-9.3
+FR_1713_h,FR_1713,M3,FR_1713_M3,Intra,11.8,FRM,Ovis aries,MHar,MHar ii,Urban,0.8,-9.5
+FR_1713_i,FR_1713,M3,FR_1713_M3,Intra,9.6,FRM,Ovis aries,MHar,MHar ii,Urban,2.8,-8.7
+FR_1713_j,FR_1713,M3,FR_1713_M3,Intra,7.4,FRM,Ovis aries,MHar,MHar ii,Urban,4.1,-7.5
+FR_1713_k,FR_1713,M3,FR_1713_M3,Intra,4.7,FRM,Ovis aries,MHar,MHar ii,Urban,3.9,-5.3
+FR_1713_l,FR_1713,M3,FR_1713_M3,Intra,2.6,FRM,Ovis aries,MHar,MHar ii,Urban,0.6,-3.2
+FR_1718_a,FR_1718,M3,FR_1718_M3,Intra,9.6,FRM,Bos indicus,MHar,MHar ii,Urban,-0.5,4.2
+FR_1718_b,FR_1718,M3,FR_1718_M3,Intra,7.3,FRM,Bos indicus,MHar,MHar ii,Urban,-0.6,4.3
+FR_1718_c,FR_1718,M3,FR_1718_M3,Intra,5.3,FRM,Bos indicus,MHar,MHar ii,Urban,-0.5,4.2
+FR_1718_d,FR_1718,M3,FR_1718_M3,Intra,2.9,FRM,Bos indicus,MHar,MHar ii,Urban,-0.1,4.2
+FR_1720_a_,FR_1720,M3,FR_1720_M3,Intra,34.7,FRM,Bos indicus,MHar,MHar ii,Urban,3.1,2.8
+FR_1720_b_,FR_1720,M3,FR_1720_M3,Intra,32.5,FRM,Bos indicus,MHar,MHar ii,Urban,1.4,2.5
+FR_1720_c_,FR_1720,M3,FR_1720_M3,Intra,30,FRM,Bos indicus,MHar,MHar ii,Urban,2.1,2.6
+FR_1720_d_,FR_1720,M3,FR_1720_M3,Intra,27.8,FRM,Bos indicus,MHar,MHar ii,Urban,1.3,2.6
+FR_1720_e_,FR_1720,M3,FR_1720_M3,Intra,25.7,FRM,Bos indicus,MHar,MHar ii,Urban,1.3,2.8
+FR_1720_f_,FR_1720,M3,FR_1720_M3,Intra,23.7,FRM,Bos indicus,MHar,MHar ii,Urban,-0.3,2.9
+FR_1720_g_,FR_1720,M3,FR_1720_M3,Intra,21.4,FRM,Bos indicus,MHar,MHar ii,Urban,0.3,3
+FR_1720_h_,FR_1720,M3,FR_1720_M3,Intra,19.2,FRM,Bos indicus,MHar,MHar ii,Urban,-0.7,3
+FR_1720_i_,FR_1720,M3,FR_1720_M3,Intra,16.8,FRM,Bos indicus,MHar,MHar ii,Urban,-0.8,3.2
+FR_1720_j_,FR_1720,M3,FR_1720_M3,Intra,14.7,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,3.4
+FR_1720_k_,FR_1720,M3,FR_1720_M3,Intra,12.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.8,3.2
+FR_1720_l_,FR_1720,M3,FR_1720_M3,Intra,10.1,FRM,Bos indicus,MHar,MHar ii,Urban,-1.8,3.1
+FR_1720_m_,FR_1720,M3,FR_1720_M3,Intra,7.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,3.2
+FR_1720_n_,FR_1720,M3,FR_1720_M3,Intra,5.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,3.3
+FR_1720_o_,FR_1720,M3,FR_1720_M3,Intra,3.4,FRM,Bos indicus,MHar,MHar ii,Urban,-1.1,3.4
+FR_1721_a,FR_1721,M3,FR_1721_M3,Intra,32.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,3.3
+FR_1721_b,FR_1721,M3,FR_1721_M3,Intra,30,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,3.3
+FR_1721_c,FR_1721,M3,FR_1721_M3,Intra,28,FRM,Bos indicus,MHar,MHar ii,Urban,-2.4,3.4
+FR_1721_d,FR_1721,M3,FR_1721_M3,Intra,26,FRM,Bos indicus,MHar,MHar ii,Urban,-2.1,3.5
+FR_1721_e,FR_1721,M3,FR_1721_M3,Intra,23.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1.8,3.7
+FR_1721_f,FR_1721,M3,FR_1721_M3,Intra,21.7,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,3.7
+FR_1721_g,FR_1721,M3,FR_1721_M3,Intra,19.7,FRM,Bos indicus,MHar,MHar ii,Urban,-1.6,3.5
+FR_1721_h,FR_1721,M3,FR_1721_M3,Intra,17.8,FRM,Bos indicus,MHar,MHar ii,Urban,-2.1,3.5
+FR_1721_i,FR_1721,M3,FR_1721_M3,Intra,15.8,FRM,Bos indicus,MHar,MHar ii,Urban,-0.9,3.6
+FR_1721_j,FR_1721,M3,FR_1721_M3,Intra,13.7,FRM,Bos indicus,MHar,MHar ii,Urban,-0.8,3.2
+FR_1721_k,FR_1721,M3,FR_1721_M3,Intra,11.7,FRM,Bos indicus,MHar,MHar ii,Urban,0.3,3.1
+FR_1721_l,FR_1721,M3,FR_1721_M3,Intra,9.6,FRM,Bos indicus,MHar,MHar ii,Urban,1.3,3.1
+FR_1721_m,FR_1721,M3,FR_1721_M3,Intra,7.6,FRM,Bos indicus,MHar,MHar ii,Urban,2.1,3
+FR_1721_n,FR_1721,M3,FR_1721_M3,Intra,5.6,FRM,Bos indicus,MHar,MHar ii,Urban,3.3,2.8
+FR_1721_o,FR_1721,M3,FR_1721_M3,Intra,3.5,FRM,Bos indicus,MHar,MHar ii,Urban,3.4,2.5
+FR_1724_a,FR_1724,M3,FR_1724_M3,Intra,31.5,FRM,Bos indicus,MHar,MHar ii,Urban,1.6,3.4
+FR_1724_b,FR_1724,M3,FR_1724_M3,Intra,29.4,FRM,Bos indicus,MHar,MHar ii,Urban,1,3.3
+FR_1724_c,FR_1724,M3,FR_1724_M3,Intra,26.9,FRM,Bos indicus,MHar,MHar ii,Urban,-0.2,3.2
+FR_1724_d,FR_1724,M3,FR_1724_M3,Intra,24.7,FRM,Bos indicus,MHar,MHar ii,Urban,-0.3,3.2
+FR_1724_e,FR_1724,M3,FR_1724_M3,Intra,22.5,FRM,Bos indicus,MHar,MHar ii,Urban,-0.8,3.4
+FR_1724_f,FR_1724,M3,FR_1724_M3,Intra,20,FRM,Bos indicus,MHar,MHar ii,Urban,-1.4,3.6
+FR_1724_g,FR_1724,M3,FR_1724_M3,Intra,17.7,FRM,Bos indicus,MHar,MHar ii,Urban,-2.7,3.5
+FR_1724_h,FR_1724,M3,FR_1724_M3,Intra,15.6,FRM,Bos indicus,MHar,MHar ii,Urban,-2.7,3.6
+FR_1724_i,FR_1724,M3,FR_1724_M3,Intra,13.5,FRM,Bos indicus,MHar,MHar ii,Urban,-2.6,3.6
+FR_1724_j,FR_1724,M3,FR_1724_M3,Intra,11.5,FRM,Bos indicus,MHar,MHar ii,Urban,-3.1,3.6
+FR_1724_k,FR_1724,M3,FR_1724_M3,Intra,9.1,FRM,Bos indicus,MHar,MHar ii,Urban,-2.9,3.7
+FR_1724_l,FR_1724,M3,FR_1724_M3,Intra,6.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1.6,3.8
+FR_1724_m,FR_1724,M3,FR_1724_M3,Intra,5,FRM,Bos indicus,MHar,MHar ii,Urban,-2.6,3.7
+FR_1729_a,FR_1729,M3,FR_1729_M3,Intra,48.4,FRM,Bos indicus,MHar,MHar ii,Urban,-1.1,2.9
+FR_1729_b,FR_1729,M3,FR_1729_M3,Intra,45.4,FRM,Bos indicus,MHar,MHar ii,Urban,-1.6,2.8
+FR_1729_c,FR_1729,M3,FR_1729_M3,Intra,43.2,FRM,Bos indicus,MHar,MHar ii,Urban,-2.7,2.8
+FR_1729_d,FR_1729,M3,FR_1729_M3,Intra,40.3,FRM,Bos indicus,MHar,MHar ii,Urban,-2.6,3.1
+FR_1729_e,FR_1729,M3,FR_1729_M3,Intra,37.3,FRM,Bos indicus,MHar,MHar ii,Urban,-1.8,3
+FR_1729_f,FR_1729,M3,FR_1729_M3,Intra,34.6,FRM,Bos indicus,MHar,MHar ii,Urban,-2.1,3.2
+FR_1729_g,FR_1729,M3,FR_1729_M3,Intra,31.9,FRM,Bos indicus,MHar,MHar ii,Urban,-1.5,2.8
+FR_1729_h,FR_1729,M3,FR_1729_M3,Intra,29,FRM,Bos indicus,MHar,MHar ii,Urban,-1.3,2.7
+FR_1729_i,FR_1729,M3,FR_1729_M3,Intra,26.3,FRM,Bos indicus,MHar,MHar ii,Urban,-0.4,2.9
+FR_1729_j,FR_1729,M3,FR_1729_M3,Intra,23.4,FRM,Bos indicus,MHar,MHar ii,Urban,0.6,3.2
+FR_1729_k,FR_1729,M3,FR_1729_M3,Intra,20.5,FRM,Bos indicus,MHar,MHar ii,Urban,0.5,3
+FR_1729_l,FR_1729,M3,FR_1729_M3,Intra,17.5,FRM,Bos indicus,MHar,MHar ii,Urban,0.7,2.9
+FR_1729_m,FR_1729,M3,FR_1729_M3,Intra,14.7,FRM,Bos indicus,MHar,MHar ii,Urban,1.8,3.1
+FR_1729_n,FR_1729,M3,FR_1729_M3,Intra,12.7,FRM,Bos indicus,MHar,MHar ii,Urban,2.1,3.1
+FR_1729_o,FR_1729,M3,FR_1729_M3,Intra,9.8,FRM,Bos indicus,MHar,MHar ii,Urban,2,3.4
+FR_1729_p,FR_1729,M3,FR_1729_M3,Intra,6.8,FRM,Bos indicus,MHar,MHar ii,Urban,1.9,3.4
+FR_1729_q,FR_1729,M3,FR_1729_M3,Intra,4.8,FRM,Bos indicus,MHar,MHar ii,Urban,1.2,3.2
+FR_1730,FR_1730,M3,FR_1730_M3,Bulk,NA,FRM,Bos indicus,MHar,MHar ii,Urban,1.1,-0.3
+FR_1731_a,FR_1731,M3,FR_1731_M3,Intra,57.2,FRM,Bos indicus,MHar,MHar ii,Urban,1.2,3.1
+FR_1731_b,FR_1731,M3,FR_1731_M3,Intra,54.5,FRM,Bos indicus,MHar,MHar ii,Urban,0.8,3.1
+FR_1731_c,FR_1731,M3,FR_1731_M3,Intra,51.8,FRM,Bos indicus,MHar,MHar ii,Urban,0.9,3.4
+FR_1731_d,FR_1731,M3,FR_1731_M3,Intra,49.2,FRM,Bos indicus,MHar,MHar ii,Urban,1,3.6
+FR_1731_e,FR_1731,M3,FR_1731_M3,Intra,46.7,FRM,Bos indicus,MHar,MHar ii,Urban,-0.1,3.2
+FR_1731_f,FR_1731,M3,FR_1731_M3,Intra,43.7,FRM,Bos indicus,MHar,MHar ii,Urban,-0.1,3.6
+FR_1731_g,FR_1731,M3,FR_1731_M3,Intra,41.6,FRM,Bos indicus,MHar,MHar ii,Urban,-1.4,3.2
+FR_1731_h,FR_1731,M3,FR_1731_M3,Intra,38.7,FRM,Bos indicus,MHar,MHar ii,Urban,-2,3.3
+FR_1731_i,FR_1731,M3,FR_1731_M3,Intra,36.1,FRM,Bos indicus,MHar,MHar ii,Urban,-2,3.2
+FR_1731_j,FR_1731,M3,FR_1731_M3,Intra,33.6,FRM,Bos indicus,MHar,MHar ii,Urban,-1.9,3.4
+FR_1731_k,FR_1731,M3,FR_1731_M3,Intra,31.1,FRM,Bos indicus,MHar,MHar ii,Urban,-2,3
+FR_1731_l,FR_1731,M3,FR_1731_M3,Intra,28.6,FRM,Bos indicus,MHar,MHar ii,Urban,-0.9,3
+FR_1731_m,FR_1731,M3,FR_1731_M3,Intra,25.8,FRM,Bos indicus,MHar,MHar ii,Urban,-1,3.2
+FR_1731_n,FR_1731,M3,FR_1731_M3,Intra,23,FRM,Bos indicus,MHar,MHar ii,Urban,0.1,2.9
+FR_1731_o,FR_1731,M3,FR_1731_M3,Intra,20.5,FRM,Bos indicus,MHar,MHar ii,Urban,-1.1,2.7
+FR_1731_occl.,FR_1731,M3,FR_1731_M3,Intra,18,FRM,Bos indicus,MHar,MHar ii,Urban,2.6,3.1
+FR_1731_p,FR_1731,M3,FR_1731_M3,Intra,15.7,FRM,Bos indicus,MHar,MHar ii,Urban,0.1,2.9
+FR_1731_q,FR_1731,M3,FR_1731_M3,Intra,13.1,FRM,Bos indicus,MHar,MHar ii,Urban,-0.2,2.9
+FR_1731_r,FR_1731,M3,FR_1731_M3,Intra,10.6,FRM,Bos indicus,MHar,MHar ii,Urban,0.7,3
+FR_1731_s,FR_1731,M3,FR_1731_M3,Intra,7.9,FRM,Bos indicus,MHar,MHar ii,Urban,1.5,3
+FR_1731_t,FR_1731,M3,FR_1731_M3,Intra,5.6,FRM,Bos indicus,MHar,MHar ii,Urban,2.4,3
+FR_1732_a,FR_1732,M3,FR_1732_M3,Intra,23.8,FRM,Antelope,MHar,MHar ii,Urban,1.3,1.1
+FR_1732_b,FR_1732,M3,FR_1732_M3,Intra,21.1,FRM,Antelope,MHar,MHar ii,Urban,2.5,1.4
+FR_1732_c,FR_1732,M3,FR_1732_M3,Intra,19,FRM,Antelope,MHar,MHar ii,Urban,2.1,1.5
+FR_1732_d,FR_1732,M3,FR_1732_M3,Intra,16.1,FRM,Antelope,MHar,MHar ii,Urban,0.9,1.7
+FR_1732_e,FR_1732,M3,FR_1732_M3,Intra,13.5,FRM,Antelope,MHar,MHar ii,Urban,0,2.1
+FR_1732_f,FR_1732,M3,FR_1732_M3,Intra,11,FRM,Antelope,MHar,MHar ii,Urban,-0.8,1.5
+FR_1732_g,FR_1732,M3,FR_1732_M3,Intra,8.5,FRM,Antelope,MHar,MHar ii,Urban,-0.9,1.4
+FR_1732_h,FR_1732,M3,FR_1732_M3,Intra,6,FRM,Antelope,MHar,MHar ii,Urban,-1.3,1.1
+FR_1732_i,FR_1732,M3,FR_1732_M3,Intra,3.5,FRM,Antelope,MHar,MHar ii,Urban,-0.8,0.9
+FR1716_M1_2a,FR_1716,M1/M2,FR_1716_M1/M2,Intra,13.6,FRM,Capra/Ovis,MHar,MHar ii,Urban,-3,-0.9
+FR1716_M1_2b,FR_1716,M1/M2,FR_1716_M1/M2,Intra,11.9,FRM,Capra/Ovis,MHar,MHar ii,Urban,-2.2,-0.7
+FR1716_M1_2c,FR_1716,M1/M2,FR_1716_M1/M2,Intra,9.1,FRM,Capra/Ovis,MHar,MHar ii,Urban,-0.5,-3.2
+FR1717_M1_2a,FR_1717,M1/M2,FR_1717_M1/M2,Intra,28.6,FRM,Capra/Ovis,MHar,MHar ii,Urban,2.7,0.2
+FR1717_M1_2b,FR_1717,M1/M2,FR_1717_M1/M2,Intra,25.4,FRM,Capra/Ovis,MHar,MHar ii,Urban,2,-0.4
+FR1717_M1_2c,FR_1717,M1/M2,FR_1717_M1/M2,Intra,22.9,FRM,Capra/Ovis,MHar,MHar ii,Urban,2.2,-1.2
+FR1717_M1_2d,FR_1717,M1/M2,FR_1717_M1/M2,Intra,19.5,FRM,Capra/Ovis,MHar,MHar ii,Urban,0.6,-2.9
+FR1717_M1_2e,FR_1717,M1/M2,FR_1717_M1/M2,Intra,17.2,FRM,Capra/Ovis,MHar,MHar ii,Urban,0,-5
+FR1717_M1_2f,FR_1717,M1/M2,FR_1717_M1/M2,Intra,13.2,FRM,Capra/Ovis,MHar,MHar ii,Urban,0.1,-6.5
+FR1717_M1_2g,FR_1717,M1/M2,FR_1717_M1/M2,Intra,10.3,FRM,Capra/Ovis,MHar,MHar ii,Urban,0.8,-7.3
+FR1717_M1_2h,FR_1717,M1/M2,FR_1717_M1/M2,Intra,7,FRM,Capra/Ovis,MHar,MHar ii,Urban,3.2,-6.5
+FR1717_M1_2i,FR_1717,M1/M2,FR_1717_M1/M2,Intra,5,FRM,Capra/Ovis,MHar,MHar ii,Urban,6.3,-6
+FR1728_M1,FR_1728,M1,FR_1728_M1,Bulk,NA,FRM,Capra/Ovis,MHar,MHar ii,Urban,1.6,-0.4
+GWR032M2a,GWR032,M2,GWR032_M2,Intra,8.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,0.2,-0.6
+GWR032M2b,GWR032,M2,GWR032_M2,Intra,6.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.2,-0.8
+GWR032M2c,GWR032,M2,GWR032_M2,Intra,5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.2,-1.1
+GWR032M2d,GWR032,M2,GWR032_M2,Intra,3,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,0,-1.5
+GWR252M2a,GWR252,M2,GWR252_M2,Intra,14,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,1,1.6
+GWR252M2b,GWR252,M2,GWR252_M2,Intra,11,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,1,1.4
+GWR252M2c,GWR252,M2,GWR252_M2,Intra,8.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,1.1,1.6
+GWR252M2d,GWR252,M2,GWR252_M2,Intra,6,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.4,1.6
+GWR252M2e,GWR252,M2,GWR252_M2,Intra,4,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.8,1.7
+GWR548M2a,GWR548,M2,GWR548_M2,Intra,13,GWR,Bubalus bubalis,GWR-JOD,GWR-JOD,NA,-1.4,-0.3
+GWR548M2b,GWR548,M2,GWR548_M2,Intra,11,GWR,Bubalus bubalis,GWR-JOD,GWR-JOD,NA,-1.6,-0.4
+GWR548M2c,GWR548,M2,GWR548_M2,Intra,9,GWR,Bubalus bubalis,GWR-JOD,GWR-JOD,NA,-1.7,-0.6
+GWR548M2d,GWR548,M2,GWR548_M2,Intra,7.5,GWR,Bubalus bubalis,GWR-JOD,GWR-JOD,NA,-1.6,-0.6
+GWR548M2e,GWR548,M2,GWR548_M2,Intra,5,GWR,Bubalus bubalis,GWR-JOD,GWR-JOD,NA,-2.2,-1
+GWR554a,GWR554,M2,GWR554_M2,Intra,15.5,GWR,Boselaphus tragocamelus,GWR-JOD,GWR-JOD,NA,2.1,-1.6
+GWR554b,GWR554,M2,GWR554_M2,Intra,13.5,GWR,Boselaphus tragocamelus,GWR-JOD,GWR-JOD,NA,2.7,-1.2
+GWR554d,GWR554,M2,GWR554_M2,Intra,10,GWR,Boselaphus tragocamelus,GWR-JOD,GWR-JOD,NA,2.5,-0.1
+GWR554f,GWR554,M2,GWR554_M2,Intra,6.5,GWR,Boselaphus tragocamelus,GWR-JOD,GWR-JOD,NA,1.7,0.2
+GWR554g,GWR554,M2,GWR554_M2,Intra,4,GWR,Boselaphus tragocamelus,GWR-JOD,GWR-JOD,NA,1.1,0.2
+GWR75M2a,GWR75,M2,GWR75_M2,Intra,31.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.6,0.5
+GWR75M2c,GWR75,M2,GWR75_M2,Intra,27,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.2,0.3
+GWR75M2e,GWR75,M2,GWR75_M2,Intra,23,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,0.6,0.6
+GWR75M2g,GWR75,M2,GWR75_M2,Intra,18.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,0.4,0.9
+GWR75M2j,GWR75,M2,GWR75_M2,Intra,10.5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-0.1,1.9
+GWR75M2l,GWR75,M2,GWR75_M2,Intra,5,GWR,Bos indicus,GWR-JOD,GWR-JOD,NA,-1.9,1.1
+KNK01a,KNK01,max molar,KNK01_max molar,Intra,21.14,KNK,Axis axis,EHar,EHar,Pre-urban,0.1,0.1
+KNK01b,KNK01,max molar,KNK01_max molar,Intra,19.84,KNK,Axis axis,EHar,EHar,Pre-urban,-0.1,-0.1
+KNK01c,KNK01,max molar,KNK01_max molar,Intra,17.38,KNK,Axis axis,EHar,EHar,Pre-urban,-0.5,-0.4
+KNK01d,KNK01,max molar,KNK01_max molar,Intra,15.4,KNK,Axis axis,EHar,EHar,Pre-urban,0.3,-0.7
+KNK01e,KNK01,max molar,KNK01_max molar,Intra,13.19,KNK,Axis axis,EHar,EHar,Pre-urban,0.5,-0.9
+KNK01f,KNK01,max molar,KNK01_max molar,Intra,10.78,KNK,Axis axis,EHar,EHar,Pre-urban,1.1,-0.9
+KNK01g,KNK01,max molar,KNK01_max molar,Intra,8.61,KNK,Axis axis,EHar,EHar,Pre-urban,2,-0.8
+KNK01h,KNK01,max molar,KNK01_max molar,Intra,6.48,KNK,Axis axis,EHar,EHar,Pre-urban,3.1,-0.4
+KNK01i,KNK01,max molar,KNK01_max molar,Intra,3.65,KNK,Axis axis,EHar,EHar,Pre-urban,3.3,-0.3
+KNK02a,KNK02,mandible,KNK02_mandible,Intra,39.95,KNK,Bos indicus,EHar,EHar,Pre-urban,0.8,1.8
+KNK02b,KNK02,mandible,KNK02_mandible,Intra,36.76,KNK,Bos indicus,EHar,EHar,Pre-urban,1.6,2.2
+KNK02c,KNK02,mandible,KNK02_mandible,Intra,33.81,KNK,Bos indicus,EHar,EHar,Pre-urban,1.6,1.8
+KNK02d,KNK02,mandible,KNK02_mandible,Intra,31.24,KNK,Bos indicus,EHar,EHar,Pre-urban,2.6,1.6
+KNK02e,KNK02,mandible,KNK02_mandible,Intra,28.81,KNK,Bos indicus,EHar,EHar,Pre-urban,3.3,1.4
+KNK02f,KNK02,mandible,KNK02_mandible,Intra,25.56,KNK,Bos indicus,EHar,EHar,Pre-urban,3.4,1.1
+KNK02g,KNK02,mandible,KNK02_mandible,Intra,22.17,KNK,Bos indicus,EHar,EHar,Pre-urban,3.2,0.9
+KNK02h,KNK02,mandible,KNK02_mandible,Intra,19.46,KNK,Bos indicus,EHar,EHar,Pre-urban,4.4,0.8
+KNK02i,KNK02,mandible,KNK02_mandible,Intra,15.98,KNK,Bos indicus,EHar,EHar,Pre-urban,4.8,0.8
+KNK02j,KNK02,mandible,KNK02_mandible,Intra,12.52,KNK,Bos indicus,EHar,EHar,Pre-urban,4.5,1.3
+KNK02k,KNK02,mandible,KNK02_mandible,Intra,9.21,KNK,Bos indicus,EHar,EHar,Pre-urban,4.8,1.5
+KNK02l,KNK02,mandible,KNK02_mandible,Intra,6.22,KNK,Bos indicus,EHar,EHar,Pre-urban,4.3,1.7
+KNK03a,KNK03,mandible,KNK03_mandible,Intra,44.48,KNK,Bos indicus,EHar,EHar,Pre-urban,1.4,3.9
+KNK03b,KNK03,mandible,KNK03_mandible,Intra,41.29,KNK,Bos indicus,EHar,EHar,Pre-urban,1.4,4
+KNK03c,KNK03,mandible,KNK03_mandible,Intra,38.9,KNK,Bos indicus,EHar,EHar,Pre-urban,1.9,4
+KNK03d,KNK03,mandible,KNK03_mandible,Intra,35.27,KNK,Bos indicus,EHar,EHar,Pre-urban,1.9,3.7
+KNK03e,KNK03,mandible,KNK03_mandible,Intra,32.19,KNK,Bos indicus,EHar,EHar,Pre-urban,2.3,3.8
+KNK03f,KNK03,mandible,KNK03_mandible,Intra,28.58,KNK,Bos indicus,EHar,EHar,Pre-urban,2.6,3.4
+KNK03g,KNK03,mandible,KNK03_mandible,Intra,25.22,KNK,Bos indicus,EHar,EHar,Pre-urban,3.3,3.3
+KNK03h,KNK03,mandible,KNK03_mandible,Intra,22.69,KNK,Bos indicus,EHar,EHar,Pre-urban,3.2,3.3
+KNK03i,KNK03,mandible,KNK03_mandible,Intra,19.44,KNK,Bos indicus,EHar,EHar,Pre-urban,2.2,3.3
+KNK03j,KNK03,mandible,KNK03_mandible,Intra,15.86,KNK,Bos indicus,EHar,EHar,Pre-urban,0.7,3.7
+KNK03k,KNK03,mandible,KNK03_mandible,Intra,12.02,KNK,Bos indicus,EHar,EHar,Pre-urban,0.3,4.3
+KNK03l,KNK03,mandible,KNK03_mandible,Intra,8.07,KNK,Bos indicus,EHar,EHar,Pre-urban,0.3,4.2
+KNK03m,KNK03,mandible,KNK03_mandible,Intra,4.45,KNK,Bos indicus,EHar,EHar,Pre-urban,0.3,4
+KNK04a,KNK04,maxilla,KNK04_maxilla,Intra,45.41,KNK,Bos indicus,EHar,EHar,Pre-urban,4.1,2.9
+KNK04b,KNK04,maxilla,KNK04_maxilla,Intra,42.25,KNK,Bos indicus,EHar,EHar,Pre-urban,3.6,3.1
+KNK04c,KNK04,maxilla,KNK04_maxilla,Intra,39.12,KNK,Bos indicus,EHar,EHar,Pre-urban,2.9,3.2
+KNK04d,KNK04,maxilla,KNK04_maxilla,Intra,35.82,KNK,Bos indicus,EHar,EHar,Pre-urban,2.3,3.1
+KNK04e,KNK04,maxilla,KNK04_maxilla,Intra,32.41,KNK,Bos indicus,EHar,EHar,Pre-urban,0.9,3.4
+KNK04f,KNK04,maxilla,KNK04_maxilla,Intra,30.22,KNK,Bos indicus,EHar,EHar,Pre-urban,0.7,3.7
+KNK04g,KNK04,maxilla,KNK04_maxilla,Intra,27.28,KNK,Bos indicus,EHar,EHar,Pre-urban,-0.5,3.8
+KNK04h,KNK04,maxilla,KNK04_maxilla,Intra,24.22,KNK,Bos indicus,EHar,EHar,Pre-urban,-1,4
+KNK04i,KNK04,maxilla,KNK04_maxilla,Intra,21.14,KNK,Bos indicus,EHar,EHar,Pre-urban,-1.6,4.2
+LHR02_M2a,LHR02,LRM2,LHR02_LRM2,Intra,12.28,LHR,Bos indicus,MHar,MHar ii,Urban,2.1,2.1
+LHR02_M2b,LHR02,LRM2,LHR02_LRM2,Intra,9.78,LHR,Bos indicus,MHar,MHar ii,Urban,2.7,2.6
+LHR02_M2c,LHR02,LRM2,LHR02_LRM2,Intra,7.27,LHR,Bos indicus,MHar,MHar ii,Urban,2.9,2.8
+LHR02_M2d,LHR02,LRM2,LHR02_LRM2,Intra,5.66,LHR,Bos indicus,MHar,MHar ii,Urban,2.3,2.8
+LHR02_M2e,LHR02,LRM2,LHR02_LRM2,Intra,3.91,LHR,Bos indicus,MHar,MHar ii,Urban,1.9,2.8
+LHR02_M2f,LHR02,LRM2,LHR02_LRM2,Intra,2.12,LHR,Bos indicus,MHar,MHar ii,Urban,2,2.6
+LHR02_M3a,LHR02,LRM3,LHR02_LRM3,Intra,25.34,LHR,Bos indicus,MHar,MHar ii,Urban,0.9,3.2
+LHR02_M3b,LHR02,LRM3,LHR02_LRM3,Intra,22.79,LHR,Bos indicus,MHar,MHar ii,Urban,0.5,2.8
+LHR02_M3c,LHR02,LRM3,LHR02_LRM3,Intra,20.75,LHR,Bos indicus,MHar,MHar ii,Urban,0.5,2.7
+LHR02_M3d,LHR02,LRM3,LHR02_LRM3,Intra,18.93,LHR,Bos indicus,MHar,MHar ii,Urban,1,2.4
+LHR02_M3e,LHR02,LRM3,LHR02_LRM3,Intra,16.98,LHR,Bos indicus,MHar,MHar ii,Urban,2.5,2.2
+LHR02_M3f,LHR02,LRM3,LHR02_LRM3,Intra,14.47,LHR,Bos indicus,MHar,MHar ii,Urban,2.2,2.3
+LHR02_M3g,LHR02,LRM3,LHR02_LRM3,Intra,11.87,LHR,Bos indicus,MHar,MHar ii,Urban,2.2,2.1
+LHR02_M3h,LHR02,LRM3,LHR02_LRM3,Intra,9.42,LHR,Bos indicus,MHar,MHar ii,Urban,2.7,1.7
+LHR02_M3i,LHR02,LRM3,LHR02_LRM3,Intra,7.07,LHR,Bos indicus,MHar,MHar ii,Urban,3.5,1.9
+LHR02_M3j,LHR02,LRM3,LHR02_LRM3,Intra,4.89,LHR,Bos indicus,MHar,MHar ii,Urban,3.7,2
+LHR03_M2a,LHR03,LLM2,LHR03_LLM2,Intra,52.54,LHR,Bos indicus,MHar,MHar ii,Urban,-2.1,2.3
+LHR03_M2b,LHR03,LLM2,LHR03_LLM2,Intra,49.52,LHR,Bos indicus,MHar,MHar ii,Urban,-0.8,2.5
+LHR03_M2c,LHR03,LLM2,LHR03_LLM2,Intra,46.55,LHR,Bos indicus,MHar,MHar ii,Urban,0.3,2.6
+LHR03_M2d,LHR03,LLM2,LHR03_LLM2,Intra,43.53,LHR,Bos indicus,MHar,MHar ii,Urban,0.4,2.3
+LHR03_M2e,LHR03,LLM2,LHR03_LLM2,Intra,40.32,LHR,Bos indicus,MHar,MHar ii,Urban,1,2.3
+LHR03_M2f,LHR03,LLM2,LHR03_LLM2,Intra,36.88,LHR,Bos indicus,MHar,MHar ii,Urban,1.8,2.2
+LHR03_M2g,LHR03,LLM2,LHR03_LLM2,Intra,33.68,LHR,Bos indicus,MHar,MHar ii,Urban,2.5,2.3
+LHR03_M2h,LHR03,LLM2,LHR03_LLM2,Intra,30.74,LHR,Bos indicus,MHar,MHar ii,Urban,2.2,2.3
+LHR03_M2i,LHR03,LLM2,LHR03_LLM2,Intra,27.13,LHR,Bos indicus,MHar,MHar ii,Urban,2,2.4
+LHR03_M2j,LHR03,LLM2,LHR03_LLM2,Intra,23.24,LHR,Bos indicus,MHar,MHar ii,Urban,1.4,2.4
+LHR03_M2k,LHR03,LLM2,LHR03_LLM2,Intra,20.71,LHR,Bos indicus,MHar,MHar ii,Urban,1.2,2.5
+LHR03_M2l,LHR03,LLM2,LHR03_LLM2,Intra,16.91,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,2.7
+LHR03_M2m,LHR03,LLM2,LHR03_LLM2,Intra,12.84,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,2.8
+LHR03_M2n,LHR03,LLM2,LHR03_LLM2,Intra,9.4,LHR,Bos indicus,MHar,MHar ii,Urban,-0.8,2.4
+LHR03_M2o,LHR03,LLM2,LHR03_LLM2,Intra,5.58,LHR,Bos indicus,MHar,MHar ii,Urban,-1.3,2.9
+LHR05_M2a,LHR05,LRM2,LHR05_LRM2,Intra,35.38,LHR,Bos indicus,MHar,MHar ii,Urban,-2.6,3.7
+LHR05_M2b,LHR05,LRM2,LHR05_LRM2,Intra,32.51,LHR,Bos indicus,MHar,MHar ii,Urban,-2.4,3.4
+LHR05_M2c,LHR05,LRM2,LHR05_LRM2,Intra,29.59,LHR,Bos indicus,MHar,MHar ii,Urban,-2.8,3.7
+LHR05_M2d,LHR05,LRM2,LHR05_LRM2,Intra,26.78,LHR,Bos indicus,MHar,MHar ii,Urban,-3.5,3.5
+LHR05_M2e,LHR05,LRM2,LHR05_LRM2,Intra,24.42,LHR,Bos indicus,MHar,MHar ii,Urban,-3.4,3.6
+LHR05_M2f,LHR05,LRM2,LHR05_LRM2,Intra,21.89,LHR,Bos indicus,MHar,MHar ii,Urban,-2.2,3.7
+LHR05_M2g,LHR05,LRM2,LHR05_LRM2,Intra,19.62,LHR,Bos indicus,MHar,MHar ii,Urban,-2,3.6
+LHR05_M2h,LHR05,LRM2,LHR05_LRM2,Intra,16.98,LHR,Bos indicus,MHar,MHar ii,Urban,-2.3,3.5
+LHR05_M2i,LHR05,LRM2,LHR05_LRM2,Intra,14.24,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,3.2
+LHR05_M2j,LHR05,LRM2,LHR05_LRM2,Intra,10.88,LHR,Bos indicus,MHar,MHar ii,Urban,-0.1,3.4
+LHR05_M2k,LHR05,LRM2,LHR05_LRM2,Intra,7.94,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,3
+LHR05_M2l,LHR05,LRM2,LHR05_LRM2,Intra,4.83,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,3.1
+LHR05_M2m,LHR05,LRM2,LHR05_LRM2,Intra,2.99,LHR,Bos indicus,MHar,MHar ii,Urban,-0.4,3.3
+LHR05_M3a,LHR05,LRM3,LHR05_LRM3,Intra,42.41,LHR,Bos indicus,MHar,MHar ii,Urban,-0.6,3.5
+LHR05_M3b,LHR05,LRM3,LHR05_LRM3,Intra,39.36,LHR,Bos indicus,MHar,MHar ii,Urban,-1.8,3.4
+LHR05_M3c,LHR05,LRM3,LHR05_LRM3,Intra,36.51,LHR,Bos indicus,MHar,MHar ii,Urban,-2.2,3.6
+LHR05_M3d,LHR05,LRM3,LHR05_LRM3,Intra,33.5,LHR,Bos indicus,MHar,MHar ii,Urban,-2.2,4.1
+LHR05_M3e,LHR05,LRM3,LHR05_LRM3,Intra,30.4,LHR,Bos indicus,MHar,MHar ii,Urban,-2.3,3.9
+LHR05_M3f,LHR05,LRM3,LHR05_LRM3,Intra,26.93,LHR,Bos indicus,MHar,MHar ii,Urban,-2.3,3.7
+LHR05_M3g,LHR05,LRM3,LHR05_LRM3,Intra,23.94,LHR,Bos indicus,MHar,MHar ii,Urban,-1.3,4.1
+LHR05_M3h,LHR05,LRM3,LHR05_LRM3,Intra,20.24,LHR,Bos indicus,MHar,MHar ii,Urban,-0.9,4.1
+LHR05_M3i,LHR05,LRM3,LHR05_LRM3,Intra,17.01,LHR,Bos indicus,MHar,MHar ii,Urban,-1,4.1
+LHR05_M3j,LHR05,LRM3,LHR05_LRM3,Intra,14.23,LHR,Bos indicus,MHar,MHar ii,Urban,-0.6,4
+LHR05_M3k,LHR05,LRM3,LHR05_LRM3,Intra,10.84,LHR,Bos indicus,MHar,MHar ii,Urban,-0.1,3.9
+LHR05_M3l,LHR05,LRM3,LHR05_LRM3,Intra,7.18,LHR,Bos indicus,MHar,MHar ii,Urban,0.7,3.9
+LHR05_M3m,LHR05,LRM3,LHR05_LRM3,Intra,4.48,LHR,Bos indicus,MHar,MHar ii,Urban,-0.8,4.2
+LHR07_M3a,LHR07,ULM3,LHR07_ULM3,Intra,27.3,LHR,Bos indicus,MHar,MHar ii,Urban,1.3,3
+LHR07_M3b,LHR07,ULM3,LHR07_ULM3,Intra,25.09,LHR,Bos indicus,MHar,MHar ii,Urban,2.2,3.2
+LHR07_M3c,LHR07,ULM3,LHR07_ULM3,Intra,22.91,LHR,Bos indicus,MHar,MHar ii,Urban,2.3,2.8
+LHR07_M3d,LHR07,ULM3,LHR07_ULM3,Intra,20.62,LHR,Bos indicus,MHar,MHar ii,Urban,1.9,2.4
+LHR07_M3e,LHR07,ULM3,LHR07_ULM3,Intra,18.15,LHR,Bos indicus,MHar,MHar ii,Urban,2.8,2.6
+LHR07_M3f,LHR07,ULM3,LHR07_ULM3,Intra,15.72,LHR,Bos indicus,MHar,MHar ii,Urban,3.3,2.7
+LHR07_M3g,LHR07,ULM3,LHR07_ULM3,Intra,13.17,LHR,Bos indicus,MHar,MHar ii,Urban,3.3,2.6
+LHR07_M3h,LHR07,ULM3,LHR07_ULM3,Intra,10.31,LHR,Bos indicus,MHar,MHar ii,Urban,3.1,2.6
+LHR07_M3i,LHR07,ULM3,LHR07_ULM3,Intra,7.98,LHR,Bos indicus,MHar,MHar ii,Urban,2.6,2.6
+LHR07_M3j,LHR07,ULM3,LHR07_ULM3,Intra,6.05,LHR,Bos indicus,MHar,MHar ii,Urban,0.9,2.7
+LHR07_M3k,LHR07,ULM3,LHR07_ULM3,Intra,3.42,LHR,Bos indicus,MHar,MHar ii,Urban,-1.3,3
+LHR08_M2a,LHR08,LLM2,LHR08_LLM2,Intra,40.55,LHR,Bos indicus,MHar,MHar ii,Urban,-3,2.3
+LHR08_M2b,LHR08,LLM2,LHR08_LLM2,Intra,38.06,LHR,Bos indicus,MHar,MHar ii,Urban,-1.9,2.5
+LHR08_M2c,LHR08,LLM2,LHR08_LLM2,Intra,35.51,LHR,Bos indicus,MHar,MHar ii,Urban,-2.2,2.3
+LHR08_M2d,LHR08,LLM2,LHR08_LLM2,Intra,33.22,LHR,Bos indicus,MHar,MHar ii,Urban,-2,1.9
+LHR08_M2e,LHR08,LLM2,LHR08_LLM2,Intra,30.37,LHR,Bos indicus,MHar,MHar ii,Urban,-1.9,1.8
+LHR08_M2f,LHR08,LLM2,LHR08_LLM2,Intra,28.39,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,1.7
+LHR08_M2g,LHR08,LLM2,LHR08_LLM2,Intra,25.57,LHR,Bos indicus,MHar,MHar ii,Urban,-0.7,1.7
+LHR08_M2h,LHR08,LLM2,LHR08_LLM2,Intra,22.79,LHR,Bos indicus,MHar,MHar ii,Urban,-0.8,1.9
+LHR08_M2i,LHR08,LLM2,LHR08_LLM2,Intra,20.14,LHR,Bos indicus,MHar,MHar ii,Urban,-1.7,1.7
+LHR08_M2j,LHR08,LLM2,LHR08_LLM2,Intra,17.33,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,2.1
+LHR08_M2k,LHR08,LLM2,LHR08_LLM2,Intra,14.09,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,2.2
+LHR08_M2l,LHR08,LLM2,LHR08_LLM2,Intra,11.22,LHR,Bos indicus,MHar,MHar ii,Urban,-2.5,2.5
+LHR08_M2m,LHR08,LLM2,LHR08_LLM2,Intra,8.02,LHR,Bos indicus,MHar,MHar ii,Urban,-2.6,3
+LHR08_M2n,LHR08,LLM2,LHR08_LLM2,Intra,4.7,LHR,Bos indicus,MHar,MHar ii,Urban,-2.5,3.1
+LHR09_M3a,LHR09,LLM3,LHR09_LLM3,Intra,33.58,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,2.4
+LHR09_M3b,LHR09,LLM3,LHR09_LLM3,Intra,30.87,LHR,Bos indicus,MHar,MHar ii,Urban,-0.3,2.3
+LHR09_M3c,LHR09,LLM3,LHR09_LLM3,Intra,28.3,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,2.6
+LHR09_M3d,LHR09,LLM3,LHR09_LLM3,Intra,25.6,LHR,Bos indicus,MHar,MHar ii,Urban,-1.2,2.5
+LHR09_M3e,LHR09,LLM3,LHR09_LLM3,Intra,22.64,LHR,Bos indicus,MHar,MHar ii,Urban,-0.7,2.6
+LHR09_M3f,LHR09,LLM3,LHR09_LLM3,Intra,19.86,LHR,Bos indicus,MHar,MHar ii,Urban,0.5,2.5
+LHR09_M3g,LHR09,LLM3,LHR09_LLM3,Intra,17.32,LHR,Bos indicus,MHar,MHar ii,Urban,0.6,2.5
+LHR09_M3h,LHR09,LLM3,LHR09_LLM3,Intra,15.01,LHR,Bos indicus,MHar,MHar ii,Urban,0.6,2.5
+LHR09_M3i,LHR09,LLM3,LHR09_LLM3,Intra,12.35,LHR,Bos indicus,MHar,MHar ii,Urban,0.6,2.5
+LHR09_M3j,LHR09,LLM3,LHR09_LLM3,Intra,9.71,LHR,Bos indicus,MHar,MHar ii,Urban,0.1,2.3
+LHR09_M3k,LHR09,LLM3,LHR09_LLM3,Intra,7.02,LHR,Bos indicus,MHar,MHar ii,Urban,0.2,2.1
+LHR09_M3l,LHR09,LLM3,LHR09_LLM3,Intra,3.58,LHR,Bos indicus,MHar,MHar ii,Urban,0.8,2.4
+LHR11_M2_BULK,LHR11,URM2,LHR11_URM2,Bulk,NA,LHR,Capra/Ovis,MHar,MHar ii,Urban,-0.7,-3.8
+LHR11_M3_BULK,LHR11,URM3,LHR11_URM3,Bulk,NA,LHR,Capra/Ovis,MHar,MHar ii,Urban,-0.1,-2.7
+LHR12_M2a,LHR12,ULM2,LHR12_ULM2,Intra,11.98,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1,1.9
+LHR12_M2b,LHR12,ULM2,LHR12_ULM2,Intra,9.41,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.2,2.1
+LHR12_M2c,LHR12,ULM2,LHR12_ULM2,Intra,7.49,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.1,1.6
+LHR12_M2d,LHR12,ULM2,LHR12_ULM2,Intra,4.73,LHR,Bubalus bubalis,MHar,MHar ii,Urban,0.6,1.6
+LHR12_M2e,LHR12,ULM2,LHR12_ULM2,Intra,3,LHR,Bubalus bubalis,MHar,MHar ii,Urban,1.9,1
+LHR12_M3a,LHR12,ULM3,LHR12_ULM3,Intra,20.77,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.6,1.9
+LHR12_M3b,LHR12,ULM3,LHR12_ULM3,Intra,18.57,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.4,1.9
+LHR12_M3c,LHR12,ULM3,LHR12_ULM3,Intra,16.07,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.6,1.9
+LHR12_M3d,LHR12,ULM3,LHR12_ULM3,Intra,13.93,LHR,Bubalus bubalis,MHar,MHar ii,Urban,0,1.8
+LHR12_M3e,LHR12,ULM3,LHR12_ULM3,Intra,11.88,LHR,Bubalus bubalis,MHar,MHar ii,Urban,0.1,1.9
+LHR12_M3f,LHR12,ULM3,LHR12_ULM3,Intra,9.87,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.1,1.7
+LHR12_M3g,LHR12,ULM3,LHR12_ULM3,Intra,7.92,LHR,Bubalus bubalis,MHar,MHar ii,Urban,0.5,1.5
+LHR12_M3h,LHR12,ULM3,LHR12_ULM3,Intra,5.88,LHR,Bubalus bubalis,MHar,MHar ii,Urban,1.7,2.2
+LHR12_M3i,LHR12,ULM3,LHR12_ULM3,Intra,3.89,LHR,Bubalus bubalis,MHar,MHar ii,Urban,1.3,2.5
+LHR13_M2a,LHR13,URM2,LHR13_URM2,Intra,47.61,LHR,Bos indicus,MHar,MHar ii,Urban,2,3.1
+LHR13_M2b,LHR13,URM2,LHR13_URM2,Intra,44.06,LHR,Bos indicus,MHar,MHar ii,Urban,2,3
+LHR13_M2c,LHR13,URM2,LHR13_URM2,Intra,40.39,LHR,Bos indicus,MHar,MHar ii,Urban,2.2,3.1
+LHR13_M2d,LHR13,URM2,LHR13_URM2,Intra,36.85,LHR,Bos indicus,MHar,MHar ii,Urban,2.3,3.2
+LHR13_M2e,LHR13,URM2,LHR13_URM2,Intra,33.64,LHR,Bos indicus,MHar,MHar ii,Urban,2.1,3.2
+LHR13_M2f,LHR13,URM2,LHR13_URM2,Intra,30.23,LHR,Bos indicus,MHar,MHar ii,Urban,1.6,3.3
+LHR13_M2g,LHR13,URM2,LHR13_URM2,Intra,27.49,LHR,Bos indicus,MHar,MHar ii,Urban,1,3.3
+LHR13_M2h,LHR13,URM2,LHR13_URM2,Intra,24.09,LHR,Bos indicus,MHar,MHar ii,Urban,0.1,3.5
+LHR13_M2i,LHR13,URM2,LHR13_URM2,Intra,20.12,LHR,Bos indicus,MHar,MHar ii,Urban,0.3,3.4
+LHR13_M2j,LHR13,URM2,LHR13_URM2,Intra,16.15,LHR,Bos indicus,MHar,MHar ii,Urban,0.6,3.3
+LHR13_M2k,LHR13,URM2,LHR13_URM2,Intra,12.02,LHR,Bos indicus,MHar,MHar ii,Urban,1.2,3.4
+LHR13_M2l,LHR13,URM2,LHR13_URM2,Intra,7.95,LHR,Bos indicus,MHar,MHar ii,Urban,0.7,3.5
+LHR13_M2m,LHR13,URM2,LHR13_URM2,Intra,4.28,LHR,Bos indicus,MHar,MHar ii,Urban,-0.2,3.3
+LHR14_M3a,LHR14,LRM3,LHR14_LRM3,Intra,43.26,LHR,Bos indicus,MHar,MHar ii,Urban,1.9,3.1
+LHR14_M3b,LHR14,LRM3,LHR14_LRM3,Intra,39.87,LHR,Bos indicus,MHar,MHar ii,Urban,3.1,3.1
+LHR14_M3c,LHR14,LRM3,LHR14_LRM3,Intra,35.5,LHR,Bos indicus,MHar,MHar ii,Urban,3.1,3.1
+LHR14_M3d,LHR14,LRM3,LHR14_LRM3,Intra,32.77,LHR,Bos indicus,MHar,MHar ii,Urban,2.6,3
+LHR14_M3e,LHR14,LRM3,LHR14_LRM3,Intra,29.97,LHR,Bos indicus,MHar,MHar ii,Urban,2.9,3.2
+LHR14_M3f,LHR14,LRM3,LHR14_LRM3,Intra,27.02,LHR,Bos indicus,MHar,MHar ii,Urban,1.6,2.8
+LHR14_M3g,LHR14,LRM3,LHR14_LRM3,Intra,23.15,LHR,Bos indicus,MHar,MHar ii,Urban,3,3.2
+LHR14_M3h,LHR14,LRM3,LHR14_LRM3,Intra,19.97,LHR,Bos indicus,MHar,MHar ii,Urban,0.9,3.2
+LHR14_M3i,LHR14,LRM3,LHR14_LRM3,Intra,17.26,LHR,Bos indicus,MHar,MHar ii,Urban,0.5,3.4
+LHR14_M3j,LHR14,LRM3,LHR14_LRM3,Intra,13.98,LHR,Bos indicus,MHar,MHar ii,Urban,1.9,3.7
+LHR14_M3k,LHR14,LRM3,LHR14_LRM3,Intra,10.54,LHR,Bos indicus,MHar,MHar ii,Urban,1.5,3.6
+LHR14_M3l,LHR14,LRM3,LHR14_LRM3,Intra,6.87,LHR,Bos indicus,MHar,MHar ii,Urban,1.6,3.1
+LHR14_M3m,LHR14,LRM3,LHR14_LRM3,Intra,3.1,LHR,Bos indicus,MHar,MHar ii,Urban,1.3,3
+LHR15_M2a,LHR15,LRM2,LHR15_LRM2,Intra,10.51,LHR,Bubalus bubalis,MHar,MHar ii,Urban,1.6,3
+LHR15_M2b,LHR15,LRM2,LHR15_LRM2,Intra,8.71,LHR,Bubalus bubalis,MHar,MHar ii,Urban,1.1,3.1
+LHR15_M2c,LHR15,LRM2,LHR15_LRM2,Intra,6.04,LHR,Bubalus bubalis,MHar,MHar ii,Urban,0.9,3.6
+LHR15_M2d,LHR15,LRM2,LHR15_LRM2,Intra,3.83,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.6,3.7
+LHR15_M2e,LHR15,LRM2,LHR15_LRM2,Intra,1.98,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.4,4
+LHR15_M3a,LHR15,LRM3,LHR15_LRM3,Intra,19.72,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-2.7,2.3
+LHR15_M3b,LHR15,LRM3,LHR15_LRM3,Intra,17.4,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.9,2.1
+LHR15_M3c,LHR15,LRM3,LHR15_LRM3,Intra,15.39,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.9,2
+LHR15_M3d,LHR15,LRM3,LHR15_LRM3,Intra,13.15,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.4,1.9
+LHR15_M3e,LHR15,LRM3,LHR15_LRM3,Intra,10.79,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-0.7,2.2
+LHR15_M3f,LHR15,LRM3,LHR15_LRM3,Intra,8.49,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.1,2.2
+LHR15_M3g,LHR15,LRM3,LHR15_LRM3,Intra,6.61,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.6,2.5
+LHR15_M3h,LHR15,LRM3,LHR15_LRM3,Intra,4.58,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.8,2.4
+LHR15_M3i,LHR15,LRM3,LHR15_LRM3,Intra,3.02,LHR,Bubalus bubalis,MHar,MHar ii,Urban,-1.8,2.9
+MSD_01_bulk,MSD_01,M3,MSD_01_M3,Bulk,NA,MSDI,Capra/Ovis,MHar,MHar iii,Urban,0.7,-0.5
+MSD_023_M2_a,MSD_023,M2,MSD_023_M2,Intra,20.5,MSDI,Ovis aries,MHar,MHar iii,Urban,1.4,1.7
+MSD_023_M2_c,MSD_023,M2,MSD_023_M2,Intra,8.5,MSDI,Ovis aries,MHar,MHar iii,Urban,5.3,-1.5
+MSD_025_bulk,MSD_025,M1/M2,MSD_025_M1/M2,Bulk,NA,MSDI,Bos indicus,MHar,MHar iii,Urban,1.7,1
+MSD_026_bulk,MSD_026,M1/M2,MSD_026_M1/M2,Bulk,NA,MSDI,Bos indicus,MHar,MHar iii,Urban,-0.3,3.5
+MSD_02a,MSD_02,M3,MSD_02_M3,Intra,32.1,MSDI,Capra/Ovis,MHar,MHar iii,Urban,2,-6.9
+MSD_02b,MSD_02,M3,MSD_02_M3,Intra,29.11,MSDI,Capra/Ovis,MHar,MHar iii,Urban,0.2,-5.7
+MSD_02c,MSD_02,M3,MSD_02_M3,Intra,26.16,MSDI,Capra/Ovis,MHar,MHar iii,Urban,1.4,-5.6
+MSD_02d,MSD_02,M3,MSD_02_M3,Intra,23.15,MSDI,Capra/Ovis,MHar,MHar iii,Urban,1,-4.3
+MSD_02e,MSD_02,M3,MSD_02_M3,Intra,20.75,MSDI,Capra/Ovis,MHar,MHar iii,Urban,4,-2.2
+MSD_02f,MSD_02,M3,MSD_02_M3,Intra,18.42,MSDI,Capra/Ovis,MHar,MHar iii,Urban,4.9,-0.4
+MSD_02g,MSD_02,M3,MSD_02_M3,Intra,15.17,MSDI,Capra/Ovis,MHar,MHar iii,Urban,3.5,-0.4
+MSD_02h,MSD_02,M3,MSD_02_M3,Intra,12.67,MSDI,Capra/Ovis,MHar,MHar iii,Urban,3.2,-0.5
+MSD_02i,MSD_02,M3,MSD_02_M3,Intra,9.06,MSDI,Capra/Ovis,MHar,MHar iii,Urban,0.9,-1.5
+MSD_02j,MSD_02,M3,MSD_02_M3,Intra,6.13,MSDI,Capra/Ovis,MHar,MHar iii,Urban,-0.3,-3
+MSD_02k,MSD_02,M3,MSD_02_M3,Intra,4.34,MSDI,Capra/Ovis,MHar,MHar iii,Urban,0.9,-4.4
+MSD_02l,MSD_02,M3,MSD_02_M3,Intra,2.5,MSDI,Capra/Ovis,MHar,MHar iii,Urban,2.5,-4.3
+MSD_03a,MSD_03,M2,MSD_03_M2,Intra,32.05,MSDI,Bos indicus,MHar,MHar iii,Urban,5.1,-1.2
+MSD_03b,MSD_03,M2,MSD_03_M2,Intra,28.74,MSDI,Bos indicus,MHar,MHar iii,Urban,6.2,-1.2
+MSD_03c,MSD_03,M2,MSD_03_M2,Intra,25.61,MSDI,Bos indicus,MHar,MHar iii,Urban,6.2,-1
+MSD_03d,MSD_03,M2,MSD_03_M2,Intra,22.86,MSDI,Bos indicus,MHar,MHar iii,Urban,5.7,-0.8
+MSD_03e,MSD_03,M2,MSD_03_M2,Intra,19.59,MSDI,Bos indicus,MHar,MHar iii,Urban,4,-0.3
+MSD_03f,MSD_03,M2,MSD_03_M2,Intra,16.19,MSDI,Bos indicus,MHar,MHar iii,Urban,4,0.5
+MSD_03g,MSD_03,M2,MSD_03_M2,Intra,13.95,MSDI,Bos indicus,MHar,MHar iii,Urban,2.8,0.8
+MSD_03h,MSD_03,M2,MSD_03_M2,Intra,10.77,MSDI,Bos indicus,MHar,MHar iii,Urban,1.1,1.3
+MSD_03i,MSD_03,M2,MSD_03_M2,Intra,7.77,MSDI,Bos indicus,MHar,MHar iii,Urban,0.9,1.8
+MSD_03j,MSD_03,M2,MSD_03_M2,Intra,5.32,MSDI,Bos indicus,MHar,MHar iii,Urban,0.5,2.2
+MSD_044_a,MSD_044,m3,MSD_044_m3,Intra,39,MSDI,Capra hircus,MHar,MHar iii,Urban,2.7,-0.8
+MSD_044_c,MSD_044,m3,MSD_044_m3,Intra,21,MSDI,Capra hircus,MHar,MHar iii,Urban,-4.3,-4.7
+MSD_044_d,MSD_044,m3,MSD_044_m3,Intra,17,MSDI,Capra hircus,MHar,MHar iii,Urban,-3.7,-5.8
+MSD_044_e,MSD_044,m3,MSD_044_m3,Intra,14,MSDI,Capra hircus,MHar,MHar iii,Urban,-3.4,-6.3
+MSD_044_g,MSD_044,m3,MSD_044_m3,Intra,36,MSDI,Capra hircus,MHar,MHar iii,Urban,-0.5,-2.5
+MSD_04a,MSD_04,M2,MSD_04_M2,Intra,26.34,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,1.7,3.2
+MSD_04b,MSD_04,M2,MSD_04_M2,Intra,23.6,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,3,3
+MSD_04c,MSD_04,M2,MSD_04_M2,Intra,21.02,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,2.6,3.1
+MSD_04d,MSD_04,M2,MSD_04_M2,Intra,17.97,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,2.7,2.8
+MSD_04e,MSD_04,M2,MSD_04_M2,Intra,15.38,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,3,3.2
+MSD_04f,MSD_04,M2,MSD_04_M2,Intra,13.25,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,0.7,2.4
+MSD_04g,MSD_04,M2,MSD_04_M2,Intra,10.83,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,-0.6,2.4
+MSD_04h,MSD_04,M2,MSD_04_M2,Intra,8.27,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,-1.1,2.1
+MSD_04i,MSD_04,M2,MSD_04_M2,Intra,5.27,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,-0.9,2.4
+MSD_04j,MSD_04,M2,MSD_04_M2,Intra,2.83,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,0.4,1.6
+MSD_05a,MSD_05,M2,MSD_05_M2,Intra,26.68,MSDI,Bos indicus,MHar,MHar iii,Urban,2.4,-0.2
+MSD_05b,MSD_05,M2,MSD_05_M2,Intra,24.69,MSDI,Bos indicus,MHar,MHar iii,Urban,2.1,0.3
+MSD_05c,MSD_05,M2,MSD_05_M2,Intra,21.96,MSDI,Bos indicus,MHar,MHar iii,Urban,0.8,0.7
+MSD_05d,MSD_05,M2,MSD_05_M2,Intra,19.43,MSDI,Bos indicus,MHar,MHar iii,Urban,-0.7,1
+MSD_05e,MSD_05,M2,MSD_05_M2,Intra,16.74,MSDI,Bos indicus,MHar,MHar iii,Urban,-2.1,1
+MSD_05f,MSD_05,M2,MSD_05_M2,Intra,14.39,MSDI,Bos indicus,MHar,MHar iii,Urban,-2.4,1.2
+MSD_05g,MSD_05,M2,MSD_05_M2,Intra,11.76,MSDI,Bos indicus,MHar,MHar iii,Urban,-2.1,1.6
+MSD_05h,MSD_05,M2,MSD_05_M2,Intra,9.06,MSDI,Bos indicus,MHar,MHar iii,Urban,-1.6,1.4
+MSD_05i,MSD_05,M2,MSD_05_M2,Intra,6.63,MSDI,Bos indicus,MHar,MHar iii,Urban,-3.4,1.3
+MSD_05j,MSD_05,M2,MSD_05_M2,Intra,3.71,MSDI,Bos indicus,MHar,MHar iii,Urban,-2.4,1.3
+MSD_063_M2,MSD_063,M2,MSD_063_M2,Bulk,NA,MSDI,Capra/Ovis,MHar,MHar iii,Urban,2.3,-1.5
+MSD_076_a,MSD_076,m3,MSD_076_m3,Intra,11,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,0.2,3.7
+MSD_076_b,MSD_076,m3,MSD_076_m3,Intra,8,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,-0.4,3.8
+MSD_076_c,MSD_076,m3,MSD_076_m3,Intra,5,MSDI,Bubalus bubalis,MHar,MHar iii,Urban,-0.7,4
+MSD_077_a,MSD_077,m2,MSD_077_m2,Intra,9,MSDI,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.6,3.3
+MSD_077_b,MSD_077,m2,MSD_077_m2,Intra,7,MSDI,Boselaphus tragocamelus,MHar,MHar iii,Urban,1.4,3.9
+MSD_077_c,MSD_077,m2,MSD_077_m2,Intra,4,MSDI,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.7,4
+MSD_077_d,MSD_077,m2,MSD_077_m2,Intra,2,MSDI,Boselaphus tragocamelus,MHar,MHar iii,Urban,0.3,4.3
+MSD_089_bulk,MSD_089,M1/M2,MSD_089_M1/M2,Bulk,NA,MSDI,Bos indicus,MHar,MHar iii,Urban,0.4,3.5
+MSD_092_a,MSD_092,M2,MSD_092_M2,Intra,20,MSDI,Bos indicus,MHar,MHar iii,Urban,2.9,2.4
+MSD_092_c,MSD_092,M2,MSD_092_M2,Intra,16,MSDI,Bos indicus,MHar,MHar iii,Urban,2.6,2.7
+MSD_092_d,MSD_092,M2,MSD_092_M2,Intra,13,MSDI,Bos indicus,MHar,MHar iii,Urban,1.1,3
+MSD_092_e,MSD_092,M2,MSD_092_M2,Intra,10,MSDI,Bos indicus,MHar,MHar iii,Urban,1.6,3.4
+MSD_092_f,MSD_092,M2,MSD_092_M2,Intra,7,MSDI,Bos indicus,MHar,MHar iii,Urban,1.6,3.9
+MSD_092_g,MSD_092,M2,MSD_092_M2,Intra,5,MSDI,Bos indicus,MHar,MHar iii,Urban,2.1,3.9
+MSD_101_M2_a,MSD_101,M2,MSD_101_M2,Intra,15,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,1.2,-7.4
+MSD_101_M2_b,MSD_101,M2,MSD_101_M2,Intra,12,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,3,-8.6
+MSD_101_M2_c,MSD_101,M2,MSD_101_M2,Intra,9,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,4.5,-6.9
+MSD_101_M2_d,MSD_101,M2,MSD_101_M2,Intra,5,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,3.5,-3.8
+MSD_101_M3_a,MSD_101,M3,MSD_101_M3,Intra,23,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,-1,-1.5
+MSD_101_M3_b,MSD_101,M3,MSD_101_M3,Intra,20,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,-1.6,-1.7
+MSD_101_M3_c,MSD_101,M3,MSD_101_M3,Intra,16,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,0.4,-3
+MSD_101_M3_d,MSD_101,M3,MSD_101_M3,Intra,13,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,0.6,-3.3
+MSD_101_M3_f,MSD_101,M3,MSD_101_M3,Intra,6,MSDI,Antilope cervicapra,MHar,MHar iii,Urban,3.8,-4.6
+MSD_139_a,MSD_139,M2,MSD_139_M2,Intra,25,MSDI,Bos indicus,MHar,MHar ii ,Urban,1.4,3.2
+MSD_139_b,MSD_139,M2,MSD_139_M2,Intra,21,MSDI,Bos indicus,MHar,MHar ii ,Urban,1.3,3.1
+MSD_139_c,MSD_139,M2,MSD_139_M2,Intra,18,MSDI,Bos indicus,MHar,MHar ii ,Urban,3.4,3.2
+MSD_139_d,MSD_139,M2,MSD_139_M2,Intra,15,MSDI,Bos indicus,MHar,MHar ii ,Urban,0.9,3.4
+MSD_139_e,MSD_139,M2,MSD_139_M2,Intra,10,MSDI,Bos indicus,MHar,MHar ii ,Urban,-0.3,3.5
+MSD_139_f,MSD_139,M2,MSD_139_M2,Intra,7,MSDI,Bos indicus,MHar,MHar ii ,Urban,-0.9,3.4
+MSD_139_g,MSD_139,M2,MSD_139_M2,Intra,5,MSDI,Bos indicus,MHar,MHar ii ,Urban,-1.8,3.2
+MSD_15_M1a,MSD_15,M1,MSD_15_M1,Intra,23.7,MSDVII,Capra hircus,MHar,MHar iii ,Urban,-1,1.7
+MSD_15_M1b,MSD_15,M1,MSD_15_M1,Intra,21,MSDVII,Capra hircus,MHar,MHar iii ,Urban,-2.4,1.1
+MSD_15_M1c,MSD_15,M1,MSD_15_M1,Intra,18.8,MSDVII,Capra hircus,MHar,MHar iii ,Urban,-0.5,1.1
+MSD_15_M1d,MSD_15,M1,MSD_15_M1,Intra,16.3,MSDVII,Capra hircus,MHar,MHar iii ,Urban,-0.2,0.6
+MSD_15_M1e,MSD_15,M1,MSD_15_M1,Intra,13.4,MSDVII,Capra hircus,MHar,MHar iii ,Urban,0.3,-0.3
+MSD_15_M1f,MSD_15,M1,MSD_15_M1,Intra,11.3,MSDVII,Capra hircus,MHar,MHar iii ,Urban,0.7,-0.7
+MSD_15_M1g,MSD_15,M1,MSD_15_M1,Intra,9.1,MSDVII,Capra hircus,MHar,MHar iii ,Urban,0.9,-0.9
+MSD_15_M1h,MSD_15,M1,MSD_15_M1,Intra,6.4,MSDVII,Capra hircus,MHar,MHar iii ,Urban,1.2,0
+MSD_15_M1i,MSD_15,M1,MSD_15_M1,Intra,3.9,MSDVII,Capra hircus,MHar,MHar iii ,Urban,2.4,1.1
+MSD_155_bulk,MSD_155,M1/M2,MSD_155_M1/M2,Bulk,NA,MSDI,Bos indicus,MHar,MHar iii ,Urban,1.3,3.6
+MSD_156_bulk,MSD_156,M2,MSD_156_M2,Bulk,NA,MSDI,Bos indicus,MHar,MHar iii ,Urban,-2,3.4
+MSD_175_a,MSD_175,M2,MSD_175_M2,Intra,46,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-0.3,3.2
+MSD_175_b,MSD_175,M2,MSD_175_M2,Intra,43,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.8,3
+MSD_175_c,MSD_175,M2,MSD_175_M2,Intra,39,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-0.4,2.8
+MSD_175_d,MSD_175,M2,MSD_175_M2,Intra,35,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.2,2.6
+MSD_175_e,MSD_175,M2,MSD_175_M2,Intra,31,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.6,2.6
+MSD_175_f,MSD_175,M2,MSD_175_M2,Intra,28,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.8,2.8
+MSD_175_g,MSD_175,M2,MSD_175_M2,Intra,24,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.3,3.1
+MSD_175_h,MSD_175,M2,MSD_175_M2,Intra,20,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-1,3.3
+MSD_175_i,MSD_175,M2,MSD_175_M2,Intra,16,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-1.9,2.7
+MSD_175_j,MSD_175,M2,MSD_175_M2,Intra,12,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-1.9,2.4
+MSD_175_k,MSD_175,M2,MSD_175_M2,Intra,6,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-2.2,1.8
+MSD_175_l,MSD_175,M2,MSD_175_M2,Intra,4,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-1.1,1.2
+MSD_176_bulk,MSD_176,M1/M2,MSD_176_M1/M2,Bulk,NA,MSDVII,Antilope cervicapra,LHar,ELHar,Post-urban,-1.2,-3.4
+MSD_177_a,MSD_177,M2,MSD_177_M2,Intra,12,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.5,3.7
+MSD_177_b,MSD_177,M2,MSD_177_M2,Intra,15,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,2.4,3.5
+MSD_177_c,MSD_177,M2,MSD_177_M2,Intra,18,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,2.8,3.5
+MSD_177_d,MSD_177,M2,MSD_177_M2,Intra,21,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,3.1,3.5
+MSD_177_e,MSD_177,M2,MSD_177_M2,Intra,25,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,1.8,3.6
+MSD_177_f,MSD_177,M2,MSD_177_M2,Intra,27,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,2.3,3.7
+MSD_177_g,MSD_177,M2,MSD_177_M2,Intra,30,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,0.9,3.9
+MSD_177_h,MSD_177,M2,MSD_177_M2,Intra,34,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-0.6,4.1
+MSD_177_i,MSD_177,M2,MSD_177_M2,Intra,37,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-0.6,4.3
+MSD_177_j,MSD_177,M2,MSD_177_M2,Intra,40,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-0.7,4.4
+MSD_177_k,MSD_177,M2,MSD_177_M2,Intra,44,MSDVII,Bubalus bubalis,LHar,ELHar,Post-urban,-1.2,4.3
+MSD_191_a,MSD_191,M2,MSD_191_M2,Intra,19,MSDVII,Capra hircus,LHar,ELHar,Post-urban,2.5,-4.2
+MSD_191_b,MSD_191,M2,MSD_191_M2,Intra,15,MSDVII,Capra hircus,LHar,ELHar,Post-urban,4.6,-1.9
+MSD_191_c,MSD_191,M2,MSD_191_M2,Intra,13,MSDVII,Capra hircus,LHar,ELHar,Post-urban,4.9,0.1
+MSD_191_d,MSD_191,M2,MSD_191_M2,Intra,10,MSDVII,Capra hircus,LHar,ELHar,Post-urban,1.1,0.5
+MSD_191_e,MSD_191,M2,MSD_191_M2,Intra,5,MSDVII,Capra hircus,LHar,ELHar,Post-urban,-1.2,-1.2
+MSD_5115_M2_a,MSD_5115,M2,MSD_5115_M2,Intra,6,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.8,3.3
+MSD_5115_M2_b,MSD_5115,M2,MSD_5115_M2,Intra,2,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.6,3.5
+MSD_5115_M3_a,MSD_5115,M3,MSD_5115_M3,Intra,16,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.6,2.4
+MSD_5115_M3_b,MSD_5115,M3,MSD_5115_M3,Intra,11,MSDVII,Bos indicus,LHar,ELHar,Post-urban,3.5,2.3
+MSD_5115_M3_c,MSD_5115,M3,MSD_5115_M3,Intra,6,MSDVII,Bos indicus,LHar,ELHar,Post-urban,5.7,2.2
+MSD_5115_M3_d,MSD_5115,M3,MSD_5115_M3,Intra,2,MSDVII,Bos indicus,LHar,ELHar,Post-urban,5.4,2.3
+MSD_5117_M3_a,MSD_5117,M3,MSD_5117_M3,Intra,9,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.6,3.9
+MSD_5117_M3_b,MSD_5117,M3,MSD_5117_M3,Intra,6,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1,3.8
+MSD_5118_a,MSD_5118,M3,MSD_5118_M3,Intra,42,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.4,3.9
+MSD_5118_b,MSD_5118,M3,MSD_5118_M3,Intra,38,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.8,3.8
+MSD_5118_c,MSD_5118,M3,MSD_5118_M3,Intra,34,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.8,3.7
+MSD_5118_d,MSD_5118,M3,MSD_5118_M3,Intra,30,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.8,4
+MSD_5118_e,MSD_5118,M3,MSD_5118_M3,Intra,27,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.5,4.1
+MSD_5118_f,MSD_5118,M3,MSD_5118_M3,Intra,24,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.5,4.3
+MSD_5118_g,MSD_5118,M3,MSD_5118_M3,Intra,20,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.3,4.6
+MSD_5118_h,MSD_5118,M3,MSD_5118_M3,Intra,16,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.4,3.9
+MSD_5118_i,MSD_5118,M3,MSD_5118_M3,Intra,12,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.4,4
+MSD_5118_j,MSD_5118,M3,MSD_5118_M3,Intra,5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.7,3.8
+MSD_5121_a,MSD_5121,M2,MSD_5121_M2,Intra,17,MSDVII,Bos indicus,LHar,ELHar,Post-urban,1.1,3.9
+MSD_5121_b,MSD_5121,M2,MSD_5121_M2,Intra,14,MSDVII,Bos indicus,LHar,ELHar,Post-urban,1.4,4.2
+MSD_5121_c,MSD_5121,M2,MSD_5121_M2,Intra,11,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.2,4.2
+MSD_5121_d,MSD_5121,M2,MSD_5121_M2,Intra,7,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.2,4.1
+MSD_5121_e,MSD_5121,M2,MSD_5121_M2,Intra,3,MSDVII,Bos indicus,LHar,ELHar,Post-urban,4,4
+MSD_5125_a,MSD_5125,m3,MSD_5125_m3,Intra,30,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.4,-1
+MSD_5125_b,MSD_5125,m3,MSD_5125_m3,Intra,23.5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,3.5,0.9
+MSD_5125_c,MSD_5125,m3,MSD_5125_m3,Intra,14.5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.4,0.9
+MSD_5125_d,MSD_5125,m3,MSD_5125_m3,Intra,5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.3,-0.4
+MSD_5126_a,MSD_5126,M3,MSD_5126_M3,Intra,27,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.6,3.6
+MSD_5126_c,MSD_5126,M3,MSD_5126_M3,Intra,19,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.7,3.7
+MSD_5126_d,MSD_5126,M3,MSD_5126_M3,Intra,15,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.2,3.6
+MSD_5126_e,MSD_5126,M3,MSD_5126_M3,Intra,12,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.4,3.6
+MSD_5126_f,MSD_5126,M3,MSD_5126_M3,Intra,7,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.1,3.6
+MSD_5126_g,MSD_5126,M3,MSD_5126_M3,Intra,30,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.4,4
+MSD_5146_M12_a,MSD_5146a,M1/M2,MSD_5146_M1/M2,Intra,12,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.5,1.5
+MSD_5146_M12_b,MSD_5146a,M1/M2,MSD_5146_M1/M2,Intra,6,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.4,1
+MSD_5146_M12_c,MSD_5146a,M1/M2,MSD_5146_M1/M2,Intra,3,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.3,3.1
+MSD_5146_M2_a,MSD_5146b,M2,MSD_5146_M2,Intra,48,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.4,0.7
+MSD_5146_M2_b,MSD_5146b,M2,MSD_5146_M2,Intra,44,MSDVII,Bos indicus,LHar,ELHar,Post-urban,1.4,1.2
+MSD_5146_M2_c,MSD_5146b,M2,MSD_5146_M2,Intra,40,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.4,1.3
+MSD_5146_M2_d,MSD_5146b,M2,MSD_5146_M2,Intra,36,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.6,1.9
+MSD_5146_M2_f,MSD_5146b,M2,MSD_5146_M2,Intra,26,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2,2.7
+MSD_5146_M2_g,MSD_5146b,M2,MSD_5146_M2,Intra,23,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.8,2.4
+MSD_5146_M2_h,MSD_5146b,M2,MSD_5146_M2,Intra,18,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.9,3.3
+MSD_5146_M2_i,MSD_5146b,M2,MSD_5146_M2,Intra,12,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.3,3.7
+MSD_5146_M2_j,MSD_5146b,M2,MSD_5146_M2,Intra,6,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-1.6,4.1
+MSD_5153_a,MSD_5153,M2,MSD_5153_M2,Intra,26,MSDVII,Bos indicus,LHar,ELHar,Post-urban,1,3.3
+MSD_5153_b,MSD_5153,M2,MSD_5153_M2,Intra,21,MSDVII,Bos indicus,LHar,ELHar,Post-urban,2.4,3.2
+MSD_5153_d,MSD_5153,M2,MSD_5153_M2,Intra,13.5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,1.1,3.5
+MSD_5153_e,MSD_5153,M2,MSD_5153_M2,Intra,8.5,MSDVII,Bos indicus,LHar,ELHar,Post-urban,-0.3,3.6
+MSD_5153_f,MSD_5153,M2,MSD_5153_M2,Intra,4,MSDVII,Bos indicus,LHar,ELHar,Post-urban,0.5,3.5
+MSD_NN010_a,MSD_NN010,M3,MSD_NN010_M3,Intra,44,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.3,3
+MSD_NN010_b,MSD_NN010,M3,MSD_NN010_M3,Intra,40,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.4,3.4
+MSD_NN010_c,MSD_NN010,M3,MSD_NN010_M3,Intra,37,MSDI,Bos indicus,MHar,MHar iii ,Urban,-0.8,3.6
+MSD_NN010_d,MSD_NN010,M3,MSD_NN010_M3,Intra,34,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.7,3.8
+MSD_NN010_e,MSD_NN010,M3,MSD_NN010_M3,Intra,30,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.8,3.6
+MSD_NN010_f,MSD_NN010,M3,MSD_NN010_M3,Intra,27,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.9,3.6
+MSD_NN010_g,MSD_NN010,M3,MSD_NN010_M3,Intra,25,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.7,3.8
+MSD_NN010_h,MSD_NN010,M3,MSD_NN010_M3,Intra,21,MSDI,Bos indicus,MHar,MHar iii ,Urban,-1.8,3.3
+MSD_NN010_i,MSD_NN010,M3,MSD_NN010_M3,Intra,18,MSDI,Bos indicus,MHar,MHar iii ,Urban,-0.8,4
+MSD_NN010_j,MSD_NN010,M3,MSD_NN010_M3,Intra,15,MSDI,Bos indicus,MHar,MHar iii ,Urban,-0.1,3.7
+MSD_NN010_k,MSD_NN010,M3,MSD_NN010_M3,Intra,12,MSDI,Bos indicus,MHar,MHar iii ,Urban,-0.4,3.8
+MSD_NN012_b,MSD_NN012,M3,MSD_NN012_M3,Intra,31,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,0.1,-1
+MSD_NN012_c,MSD_NN012,M3,MSD_NN012_M3,Intra,29,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,-0.2,-1.5
+MSD_NN012_d,MSD_NN012,M3,MSD_NN012_M3,Intra,26,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,-0.4,-1.9
+MSD_NN012_e,MSD_NN012,M3,MSD_NN012_M3,Intra,23,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,-0.4,-2.7
+MSD_NN012_f,MSD_NN012,M3,MSD_NN012_M3,Intra,19,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,-0.8,-3
+MSD_NN012_g,MSD_NN012,M3,MSD_NN012_M3,Intra,16,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,0.6,-3.4
+MSD_NN012_i,MSD_NN012,M3,MSD_NN012_M3,Intra,10,MSDI,Antilope cervicapra,MHar,MHar iii ,Urban,0.9,-1.6
+MSD_NN013_a,MSD_NN013,M2,MSD_NN013_M2,Intra,32,MSDI,Bos indicus,MHar,MHar iii ,Urban,2.5,-1.1
+MSD_NN013_b,MSD_NN013,M2,MSD_NN013_M2,Intra,29,MSDI,Bos indicus,MHar,MHar iii ,Urban,2.4,-0.6
+MSD_NN013_c,MSD_NN013,M2,MSD_NN013_M2,Intra,26,MSDI,Bos indicus,MHar,MHar iii ,Urban,2.2,-0.1
+MSD_NN013_d,MSD_NN013,M2,MSD_NN013_M2,Intra,23,MSDI,Bos indicus,MHar,MHar iii ,Urban,1.8,-0.1
+MSD_NN013_e,MSD_NN013,M2,MSD_NN013_M2,Intra,21,MSDI,Bos indicus,MHar,MHar iii ,Urban,3.4,-0.3
+MSD_NN013_f,MSD_NN013,M2,MSD_NN013_M2,Intra,17,MSDI,Bos indicus,MHar,MHar iii ,Urban,3.8,0.1
+MSD_NN013_g,MSD_NN013,M2,MSD_NN013_M2,Intra,12,MSDI,Bos indicus,MHar,MHar iii ,Urban,3.4,0.2
+MSD_NN013_h,MSD_NN013,M2,MSD_NN013_M2,Intra,14,MSDI,Bos indicus,MHar,MHar iii ,Urban,4.6,0.3
+MSD031_M1,MSD_031,M1,MSD_031_M1,Bulk,NA,MSDI,Sus scrofa,MHar,MHar iii ,Urban,-2.8,-4.8
+MSD125_M1,MSD_125,M1,MSD_125_M1,Bulk,NA,MSDI,Sus domesticus,MHar,MHar iii ,Urban,1.3,-8.5
+MSD5145_M3,MSD_5145,M3,MSD_5145_M3,Bulk,NA,MSDVII,Sus scrofa,LHar,ELHar,Post-urban,0,-5.7
